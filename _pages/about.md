@@ -1,56 +1,111 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Liwen Zhang (张立文)"
 author_profile: true
-redirect_from: 
+classes: wide
+redirect_from:
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+<div class="profile-lead" markdown="1">
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+张立文是上海财经大学统计与数据科学学院与滴水湖高级金融学院联聘教授、博士生导师及 MBA/EMBA 导师。主要研究方向包括统计理论与方法、大模型理论及应用、人工智能理论与方法、AI 量化投资。
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+He is a professor at Shanghai University of Finance and Economics. His research connects statistical methodology, large language models, AI for finance, and quantitative investment.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+<div class="profile-actions">
+  <a class="btn btn--primary" href="/publications/">Publications</a>
+  <a class="btn btn--inverse" href="/supervision/">Join the Group</a>
+  <a class="btn btn--inverse" href="https://github.com/aifinlab">GitHub</a>
+  <a class="btn btn--inverse" href="https://ssds.sufe.edu.cn/99/eb/c715a236011/page.htm">Official Profile</a>
+</div>
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+</div>
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+## Curriculum Vitae
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+### Current Appointments
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+- 2024.07–至今：上海财经大学，教授、博士生导师、MBA/EMBA 导师
+- AI 财经开发与服务中心主任
+- 上海金融智能工程技术研究中心主任
+- 数理经济学教育部重点实验室副主任
+- 数据科学与统计研究院副院长
 
-**Markdown generator**
+### Education & Experience
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+- 2018.03–2024.06：上海财经大学，副教授、博士生导师
+- 2015.08–2018.02：上海大学经济学院，讲师、硕士生导师
+- 2014.09–2015.08：香港中文大学统计学系，博士后
+- 2010.09–2014.07：复旦大学管理学院，统计学博士（期间赴北卡罗来纳州立大学联合培养）
+- 2007.09–2010.06：南京师范大学，硕士
+- 2003.09–2007.06：安徽师范大学，学士
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+## Recruitment / 招生
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+<div class="notice-box" markdown="1">
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+课题组长期关注大模型预训练、金融推理模型、多模态融合、大模型评测、金融智能体安全与 AI 量化投资等方向。欢迎对科学研究或工程落地有持久兴趣、积极主动且愿意长期投入的学生与研究人员联系。
+
+博士生、硕士生和研究实习生的实际名额与要求，以当年学校招生政策和邮件确认为准。详见 [Supervision](/supervision/)。
+
+</div>
+
+## Research Roadmap
+
+<div class="roadmap-grid">
+  <div class="roadmap-step">
+    <span class="roadmap-index">1</span>
+    <h3>Data Foundation</h3>
+    <p>构建高质量金融语料、专业知识体系与可追溯数据基座，为模型训练和评测提供统一标准。</p>
+  </div>
+  <div class="roadmap-step">
+    <span class="roadmap-index">2</span>
+    <h3>Models & Reasoning</h3>
+    <p>研究金融大模型训练、强化学习、专业推理和多模态理解，提升模型的可解释性与可靠性。</p>
+  </div>
+  <div class="roadmap-step">
+    <span class="roadmap-index">3</span>
+    <h3>Evaluation & Safety</h3>
+    <p>围绕金融知识、多模态任务、智能体执行与风险安全，建立可复现、可对比的评测基准。</p>
+  </div>
+  <div class="roadmap-step">
+    <span class="roadmap-index">4</span>
+    <h3>Decision & Deployment</h3>
+    <p>将模型与金融业务流程、安全约束和量化投资决策融合，构建可验证的产业级智能系统。</p>
+  </div>
+</div>
+
+## Selected Research Systems
+
+<div class="profile-grid">
+<div class="profile-card" markdown="1">
+### Fin-R1
+通过监督微调与强化学习提升金融复杂推理能力的开源模型。<br>
+[Paper](https://arxiv.org/abs/2503.16252) · [Code](https://github.com/aifinlab/Fin-R1)
+</div>
+<div class="profile-card" markdown="1">
+### FinEval
+面向中文金融专业知识、业务能力与安全性的大模型评测体系。<br>
+[Paper](https://arxiv.org/abs/2308.09975) · [Code](https://github.com/aifinlab/FinEval)
+</div>
+<div class="profile-card" markdown="1">
+### FinGAIA
+评估 AI 智能体在真实金融业务中的多步推理、工具协同和决策能力。<br>
+[Paper](https://arxiv.org/abs/2507.17186) · [Code](https://github.com/aifinlab/FinGAIA)
+</div>
+<div class="profile-card" markdown="1">
+### VisFinEval
+覆盖金融业务全链路的中文多模态金融评测基准。<br>
+[Paper](https://arxiv.org/abs/2508.09641) · [Code](https://github.com/aifinlab/VisFinEval)
+</div>
+</div>
+
+## Selected Honors
+
+- Outstanding Paper Award, NLPCC 2025（FinTeam）
+- 申万宏源奖教金特等奖，2025
+- 衍数奖—突出贡献奖，2025
+
+> 本页的履历与研究信息根据上海财经大学教师主页及 AIFin Lab 公开项目整理，后续可按个人简历进一步精简或补充。

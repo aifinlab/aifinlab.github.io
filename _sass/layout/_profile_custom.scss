@@ -1,0 +1,115 @@
+/* Homepage and academic-profile components. */
+
+.profile-lead {
+  margin: 0 0 1.5rem;
+  padding: 1.4rem 1.5rem;
+  border-left: 5px solid #8f1d2c;
+  border-radius: 0 12px 12px 0;
+  background: linear-gradient(135deg, #fff8f8 0%, #f5f8fc 100%);
+}
+
+.profile-lead p:last-child { margin-bottom: 0; }
+
+.profile-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin: 1rem 0 0;
+}
+
+.profile-grid,
+.roadmap-grid,
+.member-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 1.8rem;
+}
+
+.profile-card,
+.roadmap-step,
+.member-card {
+  padding: 1.1rem 1.2rem;
+  border: 1px solid #dfe4ea;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 5px 18px rgba(21, 35, 55, 0.05);
+}
+
+.profile-card h3,
+.roadmap-step h3,
+.member-card h3 {
+  margin-top: 0;
+  color: #17365d;
+}
+
+.roadmap-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+
+.roadmap-step {
+  position: relative;
+  border-top: 4px solid #8f1d2c;
+}
+
+.roadmap-index {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  margin-bottom: 0.7rem;
+  border-radius: 50%;
+  color: #fff;
+  background: #8f1d2c;
+  font-weight: 700;
+}
+
+.profile-meta,
+.publication-meta,
+.talk-meta {
+  color: #5e6773;
+  font-size: 0.9em;
+}
+
+.publication-item,
+.talk-item {
+  padding: 0 0 1rem;
+  margin: 0 0 1rem;
+  border-bottom: 1px solid #e7eaee;
+}
+
+.publication-item h3,
+.talk-item h3 { margin-bottom: 0.3rem; }
+
+.status-pill {
+  display: inline-block;
+  margin-left: 0.35rem;
+  padding: 0.1rem 0.5rem;
+  border-radius: 999px;
+  color: #6f1420;
+  background: #f9e7e9;
+  font-size: 0.75em;
+  font-weight: 700;
+  vertical-align: middle;
+}
+
+.notice-box {
+  margin: 1rem 0 1.8rem;
+  padding: 1.1rem 1.25rem;
+  border: 1px solid #e8d9b4;
+  border-radius: 12px;
+  background: #fffbef;
+}
+
+.compact-list li { margin-bottom: 0.45rem; }
+
+@media (max-width: 900px) {
+  .roadmap-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 600px) {
+  .profile-grid,
+  .roadmap-grid,
+  .member-grid { grid-template-columns: 1fr; }
+
+  .profile-lead { padding: 1.1rem; }
+}

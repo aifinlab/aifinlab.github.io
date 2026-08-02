@@ -11,3 +11,5 @@ end
 
 gem 'github-pages'
 gem 'connection_pool', '2.5.0'
+# Keep local builds compatible with the Ruby 2.6 runtime bundled with older macOS releases.
+gem 'ffi', '~> 1.16.3'
