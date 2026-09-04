@@ -4,7 +4,7 @@
 
 - 网站地址：<https://aifinlab.github.io/>
 - GitHub 仓库：<https://github.com/aifinlab/aifinlab.github.io>
-- 完整设计规范：[`docs/个人学术主页设计与制作说明.md`](docs/个人学术主页设计与制作说明.md)
+
 
 ## 网站结构
 
