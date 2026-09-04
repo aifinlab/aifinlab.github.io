@@ -5,6 +5,31 @@ permalink: /supervision/
 author_profile: true
 ---
 
+## Supervisor / 导师
+
+{% include featured-person.html person=site.data.people.supervisor %}
+
+## Current Students & Alumni / 在读学生与毕业生
+
+{% assign supervision_has_members = false %}
+{% for group in site.data.people.supervision_groups %}
+  {% if group.members and group.members != empty %}
+    {% assign supervision_has_members = true %}
+    <section class="people-group" aria-labelledby="supervision-{{ group.key }}">
+      <h3 id="supervision-{{ group.key }}">{{ group.title }}</h3>
+      <div class="people-grid">
+        {% for person in group.members %}
+          {% include member-card.html person=person %}
+        {% endfor %}
+      </div>
+    </section>
+  {% endif %}
+{% endfor %}
+
+{% unless supervision_has_members %}
+<p class="content-pending">学生名单与个人资料将在获得成员确认后发布。</p>
+{% endunless %}
+
 ## Research Supervision
 
 课题组指导方向聚焦统计学、人工智能和金融学的交叉，强调从理论问题、数据基座和评测标准出发，形成可复现论文、开源模型、基准数据集或产业系统。

@@ -5,67 +5,31 @@ permalink: /lab-members/
 author_profile: true
 ---
 
-## AIFin Lab
+<p class="page-intro">AIFin Lab 聚焦 AI + 金融投资大模型研究，团队覆盖金融语料、模型训练、多模态评测、金融智能体、安全风控、量化研究和工程平台。</p>
 
-AIFin Lab 由上海财经大学张立文教授课题组倡导发起，聚焦 AI + 金融投资大模型研究。团队研究覆盖金融语料、大模型训练、多模态评测、金融智能体、安全风控和量化投资。
+## Director / 实验室负责人
 
-<div class="member-grid">
-<div class="member-card" markdown="1">
-### Principal Investigator
-**Liwen Zhang (张立文)**<br>
-Professor and Doctoral Supervisor<br>
-Shanghai University of Finance and Economics<br>
-[Profile](https://ssds.sufe.edu.cn/99/eb/c715a236011/page.htm)
-</div>
-<div class="member-card" markdown="1">
-### Team Overview
-团队由统计、金融、人工智能和计算机等多学科背景的研究人员、学生与工程师组成。按公开介绍，团队包括博士、硕士及前后端与大模型工程人员。
-</div>
-</div>
+{% include featured-person.html person=site.data.people.supervisor %}
 
-## Functional Groups
+## Team / 团队成员
 
-<div class="profile-grid">
-<div class="profile-card" markdown="1">
-### Data Foundation
-金融语料、数据治理、标注标准、质量检查和数据集发布。
-</div>
-<div class="profile-card" markdown="1">
-### Intelligent Engine
-大模型训练、强化学习、多模态模型和金融智能体。
-</div>
-<div class="profile-card" markdown="1">
-### Quant Workshop
-量化因子挖掘、回测、组合构建、市场状态适应和风险管理。
-</div>
-<div class="profile-card" markdown="1">
-### Systems & Collaboration
-工程平台、模型服务、评测系统、开源协作与产学研项目管理。
-</div>
-</div>
+{% assign lab_has_members = false %}
+{% for group in site.data.people.lab_groups %}
+  {% if group.members and group.members != empty %}
+    {% assign lab_has_members = true %}
+    <section class="people-group" aria-labelledby="lab-{{ group.key }}">
+      <h3 id="lab-{{ group.key }}">{{ group.title }}</h3>
+      <div class="people-grid">
+        {% for person in group.members %}
+          {% include member-card.html person=person %}
+        {% endfor %}
+      </div>
+    </section>
+  {% endif %}
+{% endfor %}
 
-## Member Directory
+{% unless lab_has_members %}
+<p class="content-pending">教师、研究人员、行政运营、工程及学生成员资料将在获得本人确认后发布。</p>
+{% endunless %}
 
-<div class="notice-box" markdown="1">
-
-为避免未经核对的姓名、学籍、研究方向和去向被错误公开，成员名单暂待课题组确认后发布。建议正式名单按以下类别维护：
-
-- Faculty & Research Scientists
-- Postdoctoral Researchers
-- PhD Students
-- Master's Students
-- Research Interns & Engineers
-- Alumni
-
-</div>
-
-### Member entry template
-
-```markdown
-### Name / 姓名
-Role, institution, start year  
-Research: 2–3 keywords  
-Homepage / Google Scholar / GitHub
-```
-
-开源项目与团队协作信息请参见 [AIFin Lab on GitHub](https://github.com/aifinlab)。
+<p class="source-note">开源项目与团队协作信息请参见 <a href="https://github.com/aifinlab">AIFin Lab on GitHub</a>。</p>

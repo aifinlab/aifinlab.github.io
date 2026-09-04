@@ -1,0 +1,5 @@
+{% assign course = include.course %}
+<li class="course-item">
+  <span class="course-term">{{ course.term }}</span>{% if course.institution or course.code %}，(<span class="course-context">{% if course.institution %}{{ course.institution }}{% endif %}{% if course.institution and course.code %}, {% endif %}{% if course.code %}{{ course.code }}{% endif %}</span>){% endif %}
+  <strong class="course-name">{{ course.name }}</strong>{% if course.school %}，{{ course.school }}{% endif %}{% if course.audience %}，{{ course.audience }}{% endif %}{% if course.role %}，{{ course.role }}{% endif %}{% if course.url %} <a href="{{ course.url }}">[Course]</a>{% endif %}
+</li>

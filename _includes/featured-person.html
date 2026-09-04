@@ -1,0 +1,22 @@
+{% assign person = include.person %}
+<section class="featured-person">
+  <div class="featured-person__photo">
+    {% if person.photo contains "://" %}
+      <img src="{{ person.photo }}" alt="{{ person.name_en }} {{ person.name_zh }}" fetchpriority="high">
+    {% else %}
+      <img src="{{ person.photo | relative_url }}" alt="{{ person.name_en }} {{ person.name_zh }}" fetchpriority="high">
+    {% endif %}
+  </div>
+  <div class="featured-person__content">
+    <h3>{{ person.name_en }}{% if person.name_zh %} <span>{{ person.name_zh }}</span>{% endif %}</h3>
+    {% if person.role %}<p class="people-role">{{ person.role }}</p>{% endif %}
+    {% if person.institution %}<p>{{ person.institution }}</p>{% endif %}
+    {% if person.research %}<p><strong>Research:</strong> {{ person.research }}</p>{% endif %}
+    <p class="people-links">
+      {% if person.homepage %}<a href="{{ person.homepage }}">Homepage</a>{% endif %}
+      {% if person.email %}<a href="mailto:{{ person.email }}">Email</a>{% endif %}
+      {% if person.github %}<a href="{{ person.github }}">GitHub</a>{% endif %}
+      {% if person.scholar %}<a href="{{ person.scholar }}">Scholar</a>{% endif %}
+    </p>
+  </div>
+</section>

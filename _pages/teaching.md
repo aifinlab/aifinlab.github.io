@@ -5,36 +5,27 @@ permalink: /teaching/
 author_profile: true
 ---
 
-教学内容横跨统计学基础、数据挖掘、人工智能与金融决策，面向本科生及 MBA/EMBA 学员。
+<p class="page-intro">课程按授课时间顺序列出。课程编号、学期和教学对象以学校正式教学安排为准。</p>
 
-<div class="profile-grid">
-<div class="profile-card" markdown="1">
-### Statistics Foundation
-- 概率论
-- 数理统计
-</div>
-<div class="profile-card" markdown="1">
-### Data Science
-- 大数据挖掘
-</div>
-<div class="profile-card" markdown="1">
-### MBA / EMBA
-- 大数据商业实战
-- 人工智能和量化投资
-</div>
-<div class="profile-card" markdown="1">
-### Research Training
-- 金融大模型理论与应用
-- 金融 AI 评测、安全与智能体
-</div>
-</div>
+{% if site.data.teaching.courses and site.data.teaching.courses != empty %}
+<ol class="course-list">
+  {% for course in site.data.teaching.courses %}
+    {% include teaching-entry.html course=course %}
+  {% endfor %}
+</ol>
+{% else %}
+<p class="content-pending">课程信息核验后更新。</p>
+{% endif %}
 
-## Teaching Philosophy
-
-- 以统计基础、可验证实验和真实金融场景为主线；
-- 强调理论、工程实现与业务价值的连接；
-- 鼓励学生将课程项目转化为可复现研究、开源系统或学位论文。
-
-## Course Materials
-
-课件、作业与数据资料根据当学期的授课安排通过学校教学平台发布。如需学术交流或课程合作，请通过邮件联系。
+<section class="teaching-awards-section" aria-labelledby="teaching-awards">
+  <h2 id="teaching-awards">Selected Teaching Awards</h2>
+  {% if site.data.teaching.awards and site.data.teaching.awards != empty %}
+  <ul class="teaching-awards">
+    {% for award in site.data.teaching.awards %}
+      <li><strong>{{ award.title }}</strong>{% if award.organization %}，{{ award.organization }}{% endif %}{% if award.year %}，{{ award.year }}{% endif %}{% if award.description %}。{{ award.description }}{% endif %}。</li>
+    {% endfor %}
+  </ul>
+  {% else %}
+  <p class="content-pending">教学获奖信息核验后更新。</p>
+  {% endif %}
+</section>

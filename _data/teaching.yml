@@ -1,0 +1,45 @@
+# Replace “待补充学期” with verified semester information before publication.
+# Optional fields: code, institution, school, audience, role, url.
+
+courses:
+  - term: "待补充学期"
+    name: "概率论"
+    school: "统计与数据科学学院"
+    audience: "本科生"
+    role: "授课教师"
+
+  - term: "待补充学期"
+    name: "数理统计"
+    school: "统计与数据科学学院"
+    audience: "本科生"
+    role: "授课教师"
+
+  - term: "待补充学期"
+    name: "大数据挖掘"
+    school: "上海财经大学"
+    role: "授课教师"
+
+  - term: "待补充学期"
+    name: "大数据商业实战"
+    audience: "MBA / EMBA"
+    role: "授课教师"
+
+  - term: "待补充学期"
+    name: "人工智能和量化投资"
+    audience: "MBA / EMBA"
+    role: "授课教师"
+
+  - term: "待补充学期"
+    name: "金融大模型理论与应用"
+    audience: "研究训练"
+    role: "指导教师"
+
+  - term: "待补充学期"
+    name: "金融 AI 评测、安全与智能体"
+    audience: "研究训练"
+    role: "指导教师"
+
+awards:
+  - year: 2025
+    title: "申万宏源奖教金特等奖"
+    organization: "上海财经大学"

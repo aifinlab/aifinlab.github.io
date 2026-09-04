@@ -4,23 +4,25 @@
 
 ## 页面与文件对应关系
 
-| 网页栏目 | 内容文件 |
+| 网页栏目 | 主要内容文件 |
 | --- | --- |
 | Home | `_pages/about.md` |
-| Publications | `_pages/publications.md` |
-| Teaching | `_pages/teaching.md` |
-| Supervision | `_pages/supervision.md` |
-| Lab Members | `_pages/lab-members.md` |
-| Talks | `_pages/talks.md` |
+| Publications | `_data/publications.yml` |
+| Teaching | `_data/teaching.yml` |
+| Supervision 学生与导师 | `_data/people.yml` |
+| Supervision 招生说明 | `_pages/supervision.md` |
+| Lab Members | `_data/people.yml` |
+| Talks | `_data/talks.yml` |
 | 顶部导航 | `_data/navigation.yml` |
 | 姓名、头像、邮箱等全站信息 | `_config.yml` |
 | 本站新增样式 | `_sass/layout/_profile_custom.scss` |
+| 完整改版与制作规范 | `docs/个人学术主页设计与制作说明.md` |
 
 ## 日常更新方法
 
 1. 在 GitHub 仓库中打开要更新的 Markdown 文件。
 2. 点击右上角铅笔图标（Edit this file）。
-3. 修改正文；不要删除文件最上方两行 `---` 之间的页面配置。
+3. 修改对应的 Markdown 或 YAML 数据；不要改变现有缩进，也不要删除 Markdown 文件最上方两行 `---` 之间的页面配置。
 4. 选择 **Commit changes**，填写简短说明并提交到新分支。
 5. 创建 Pull Request，预览改动无误后合并到 `master`。
 6. GitHub Pages 通常会在数分钟内自动更新网站。
@@ -29,15 +31,19 @@
 
 ### 添加论文
 
-在 `_pages/publications.md` 对应小节中复制一条现有论文，并替换题目、作者、状态、论文链接和代码链接。尚未正式接收的论文应放在 **Some Preprints**；正式发表或已接收论文放在 **Publications / Accepted Manuscripts**。
+在 `_data/publications.yml` 的 `publications` 或 `preprints` 中复制一条现有记录，再替换年份、题目、作者、会议/期刊和资源链接。正式发表或已接收论文放在 `publications`；尚未正式接收的论文放在 `preprints`。页面会自动按类型和年份生成统一列表。
 
 ### 添加实验室成员
 
-在 `_pages/lab-members.md` 中按照现有成员卡片模板填写姓名、身份、研究方向、个人主页和起止年份。发布前请获得成员同意，并核对英文姓名和链接。
+在 `_data/people.yml` 对应分组的 `members` 中增加成员。Supervision 分组强调指导关系、培养层次和研究方向；Lab Members 分组强调实验室岗位、工作职责和参与项目。发布前请获得成员同意，并核对姓名、照片和链接。
 
 ### 添加报告
 
-在 `_pages/talks.md` 的 **Industry Lectures** 或 **Academic Conferences & Seminars** 下复制一条现有记录，统一使用“日期 — 报告题目 — 主办单位/地点 — 链接”的格式。
+在 `_data/talks.yml` 的 `academic.items` 或 `industry.items` 中复制一条记录，填写日期、活动、地点、题目和可选链接。页面会自动使用统一的讲座清单格式。
+
+### 添加课程或教学奖项
+
+在 `_data/teaching.yml` 的 `courses` 中增加一次实际开课记录；同一课程在不同学期讲授时分别记录。在 `awards` 中增加经过核验的教学奖项。不要保留“待补充学期”等占位信息作为正式发布内容。
 
 ### 更新首页研究路线
 

@@ -1,0 +1,5 @@
+{% assign talk = include.talk %}
+<li>
+  {{ talk.event }}{% if talk.location %}，{{ talk.location }}{% endif %}，{{ talk.date }}{% if talk.invited %}（Invited）{% endif %}，
+  {% if talk.url %}<a class="talk-title" href="{{ talk.url }}">{{ talk.title }}</a>{% else %}<span class="talk-title">{{ talk.title }}</span>{% endif %}
+</li>

@@ -1,0 +1,151 @@
+# Publications and preprints are maintained here and rendered by
+# _pages/publications.md. Keep each section in reverse chronological order.
+
+publications:
+  - year: 2025
+    venue_short: "NAACL"
+    title: "FinEval: A Chinese Financial Domain Knowledge Evaluation Benchmark for Large Language Models"
+    authors: "Xin Guo, Haotian Xia, Zhaowei Liu, et al., Liwen Zhang."
+    self_author: "Liwen Zhang"
+    author_mark: "†"
+    venue: "NAACL 2025, Long Papers, pp. 6258–6292."
+    paper: "https://aclanthology.org/2025.naacl-long.318/"
+    code: "https://github.com/aifinlab/FinEval"
+    data: "https://github.com/aifinlab/FinEval"
+
+  - year: 2025
+    venue_short: "EMNLP"
+    title: "VisFinEval: A Scenario-Driven Chinese Multimodal Benchmark for Holistic Financial Understanding"
+    authors: "Zhaowei Liu, Xin Guo, Haotian Xia, et al., Liwen Zhang."
+    self_author: "Liwen Zhang"
+    author_mark: "†"
+    venue: "EMNLP 2025, Main Conference."
+    paper: "https://aclanthology.org/2025.emnlp-main.1229/"
+    code: "https://github.com/aifinlab/VisFinEval"
+    data: "https://github.com/aifinlab/VisFinEval"
+
+  - year: 2025
+    venue_short: "CJS"
+    title: "Unified Inference for Longitudinal/Functional Data Quantile Dynamic Additive Models"
+    authors: "Q. Huang, T. Li, J. You, L. Zhang."
+    self_author: "L. Zhang"
+    author_mark: "†"
+    venue: "Canadian Journal of Statistics, 2025, e70006."
+
+  - year: 2025
+    venue_short: "CJS"
+    title: "Robust Change Point Detection for High-Dimensional Linear Models with Tolerance for Outliers and Heavy Tails"
+    authors: "Z. Yang, L. Zhang, S. Sun, B. Liu."
+    self_author: "L. Zhang"
+    venue: "Canadian Journal of Statistics, 53(1), e11826, 2025."
+
+  - year: 2023
+    venue_short: "ICML"
+    title: "Variance Control for Distributional Reinforcement Learning"
+    authors: "Q. Kuang, Z. Zhu, L. Zhang, F. Zhou."
+    self_author: "L. Zhang"
+    venue: "ICML 2023, pp. 17874–17895."
+
+  - year: 2022
+    venue_short: "CJS"
+    title: "Shrinkage Quantile Regression for Panel Data with Multiple Structural Breaks"
+    authors: "L. Zhang, Z. Zhu, X. Feng, Y. He."
+    self_author: "L. Zhang"
+    venue: "Canadian Journal of Statistics, 50(3), 820–851, 2022."
+
+  - year: 2022
+    venue_short: "SJS"
+    title: "Efficient Inference of Longitudinal/Functional Data Models with Time-Varying Additive Structure"
+    authors: "Q. Huang, J. You, L. Zhang."
+    self_author: "L. Zhang"
+    author_mark: "†"
+    venue: "Scandinavian Journal of Statistics, 49(2), 744–771, 2022."
+
+  - year: 2021
+    venue_short: "IJCAI"
+    title: "Non-decreasing Quantile Function Network with Efficient Exploration for Distributional Reinforcement Learning"
+    authors: "F. Zhou, Z. Zhu, Q. Kuang, L. Zhang."
+    self_author: "L. Zhang"
+    author_mark: "†"
+    venue: "IJCAI 2021, pp. 3455–3461."
+
+  - year: 2021
+    venue_short: "SIM"
+    title: "Bayesian Phase II Clinical Trial Design with Noncompliance"
+    authors: "T. Ren, W. Shen, L. Zhang, H. Zhao."
+    self_author: "L. Zhang"
+    author_mark: "†"
+    venue: "Statistics in Medicine, 40(20), 4457–4472, 2021."
+
+  - year: 2021
+    venue_short: "Biometrics"
+    title: "Regularized Matrix Data Clustering and Its Application to Image Analysis"
+    authors: "X. Gao, W. Shen, L. Zhang, et al."
+    self_author: "L. Zhang"
+    venue: "Biometrics, 77(3), 890–902, 2021."
+
+  - year: 2020
+    venue_short: "JEF"
+    title: "Global Investigation on the Country-Level Idiosyncratic Volatility and Its Determinants"
+    authors: "M. O. Caglayan, W. Xue, L. Zhang."
+    self_author: "L. Zhang"
+    author_mark: "†"
+    venue: "Journal of Empirical Finance, 55, 143–160, 2020."
+
+  - year: 2017
+    venue_short: "AISM"
+    title: "Composite Change Point Estimation for Bent Line Quantile Regression"
+    authors: "L. Zhang, H. J. Wang, Z. Zhu."
+    self_author: "L. Zhang"
+    venue: "Annals of the Institute of Statistical Mathematics, 69(1), 145–168, 2017."
+
+  - year: 2016
+    venue_short: "Biometrics"
+    title: "Sequential Model Selection Based Segmentation in Linear Regression: An Application to Array CGH Data"
+    authors: "J. Hu, L. Zhang, H. Wang."
+    self_author: "L. Zhang"
+    venue: "Biometrics, 72(3), 815–826, 2016."
+
+preprints:
+  - year: 2026
+    title: "UniFinEval: Towards Unified Evaluation of Financial Multimodal Models across Text, Images and Videos"
+    authors: "Zhi Yang, Lingfeng Zeng, Fangqi Lou, et al., Liwen Zhang."
+    self_author: "Liwen Zhang"
+    venue: "arXiv:2601.22162, 2026."
+    paper: "https://arxiv.org/abs/2601.22162"
+    code: "https://github.com/aifinlab/UniFinEval"
+    data: "https://github.com/aifinlab/UniFinEval"
+
+  - year: 2026
+    title: "QuantaAlpha: An Evolutionary Framework for LLM-Driven Alpha Mining"
+    authors: "Jun Han, Shuo Zhang, Wei Li, et al., Liwen Zhang, Ronghao Chen, Huacan Wang."
+    self_author: "Liwen Zhang"
+    venue: "arXiv:2602.07085, 2026."
+    paper: "https://arxiv.org/abs/2602.07085"
+    code: "https://github.com/aifinlab/QuantaAlpha"
+
+  - year: 2025
+    title: "FinGAIA: A Chinese Benchmark for AI Agents in Real-World Financial Domain"
+    authors: "Lingfeng Zeng, Fangqi Lou, Zixuan Wang, et al., Liwen Zhang."
+    self_author: "Liwen Zhang"
+    author_mark: "†"
+    venue: "arXiv:2507.17186, 2025."
+    paper: "https://arxiv.org/abs/2507.17186"
+    code: "https://github.com/aifinlab/FinGAIA"
+    data: "https://github.com/aifinlab/FinGAIA"
+
+  - year: 2025
+    title: "Fin-R1: A Large Language Model for Financial Reasoning through Reinforcement Learning"
+    authors: "Zhaowei Liu, Xin Guo, Zhi Yang, Fangqi Lou, et al., Liwen Zhang."
+    self_author: "Liwen Zhang"
+    author_mark: "†"
+    venue: "arXiv:2503.16252, 2025."
+    paper: "https://arxiv.org/abs/2503.16252"
+    code: "https://github.com/aifinlab/Fin-R1"
+    model: "https://github.com/aifinlab/Fin-R1"
+
+books:
+  - year: 2017
+    title: "分位数回归中变点问题及其应用"
+    authors: "张立文"
+    publisher: "经济管理出版社"

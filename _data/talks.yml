@@ -1,0 +1,67 @@
+academic:
+  title: "Academic Conferences & Seminars / 学术会议与研讨会"
+  items:
+    - date: "2026.02.04"
+      event: "Department of Statistics and Actuarial Science, The University of Hong Kong"
+      location: "Hong Kong"
+      invited: true
+      title: "Large Language Models in the Financial Domain"
+
+    - date: "2025.08.16"
+      event: "第二届 CCF 中国数字金融大会·金融大模型主题论坛"
+      location: "上海"
+      invited: true
+      title: "金融大模型前沿发展及应用研究"
+
+    - date: "2025.05.24"
+      event: "人工智能大模型助力经济高质量发展研讨会"
+      location: "上海财经大学"
+      invited: true
+      title: "数理经济学教育部重点实验室人工智能大模型研究与应用进展"
+
+    - date: "2024.03.21"
+      event: "西安交通大学创新港经济金融研究院"
+      location: "西安"
+      invited: true
+      title: "大语言模型原理、演进及其在金融中的应用简介"
+
+    - date: "2024.02.29"
+      event: "Applied Mathematical Seminar 61, 上海科技大学"
+      location: "上海"
+      invited: true
+      title: "大语言模型原理、演进及其在金融中的应用简介"
+      url: "https://ims.shanghaitech.edu.cn/ims_en/2024/0226/c4608a1088285/page.htm"
+
+    - date: "2019.12.19"
+      event: "安庆师范大学数理学院"
+      location: "安庆"
+      invited: true
+      title: "Time-Series Quantile Regression Models with Long Memory, Nonlinearity and Breaks"
+
+industry:
+  title: "Industry Lectures / 产业讲座"
+  items:
+    - date: "2025.03.20"
+      event: "上财 iMBA 项目 iFeel 公开课"
+      location: "线上"
+      title: "DeepSeek 底层逻辑剖析与商业实战路径"
+
+    - date: "2025.02.28"
+      event: "“智汇互联”产学研交流活动"
+      location: "华为城市灵境场景创新中心（上海）"
+      title: "金融大模型发展现状及金融领域大模型评测体系"
+
+    - date: "2025.02.23"
+      event: "全球开发者先锋大会金融分论坛"
+      location: "上海"
+      title: "中国金融领域大模型评测体系的探索"
+
+    - date: "2024.10.26"
+      event: "第十届金融科技国际会议"
+      location: "上海"
+      title: "金融大模型在金融领域的应用与挑战"
+
+    - date: "2024.01.19"
+      event: "毓秀讲堂"
+      location: "腾讯会议"
+      title: "金融大模型原理、演进及应用"

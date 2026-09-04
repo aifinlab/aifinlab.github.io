@@ -1,0 +1,18 @@
+{% assign item = include.item %}
+{% assign self_name = item.self_author | default: "Liwen Zhang" %}
+{% capture author_highlight %}<strong class="self-author">{{ self_name }}</strong>{% if item.author_mark %}<sup>{{ item.author_mark }}</sup>{% endif %}{% endcapture %}
+<article class="pub-entry">
+  <div class="pub-title">
+    {% if item.venue_short %}<span class="pub-venue-tag">[{{ item.venue_short }}]</span>{% endif %}
+    <strong>{{ item.title }}</strong>
+    <span class="pub-links">
+      {% if item.paper %}<a href="{{ item.paper }}">[Paper]</a>{% endif %}
+      {% if item.code %}<a href="{{ item.code }}">[Code]</a>{% endif %}
+      {% if item.data %}<a href="{{ item.data }}">[Data]</a>{% endif %}
+      {% if item.model %}<a href="{{ item.model }}">[Model]</a>{% endif %}
+      {% if item.project %}<a href="{{ item.project }}">[Project]</a>{% endif %}
+    </span>
+  </div>
+  <div class="pub-authors">{{ item.authors | replace: self_name, author_highlight }}</div>
+  <div class="pub-venue"><em>{{ item.venue }}</em></div>
+</article>

@@ -1,0 +1,24 @@
+{% assign person = include.person %}
+<article class="people-card">
+  {% if person.photo %}
+    {% if person.photo contains "://" %}
+      <img class="people-card__photo" src="{{ person.photo }}" alt="{{ person.name_en }} {{ person.name_zh }}" loading="lazy">
+    {% else %}
+      <img class="people-card__photo" src="{{ person.photo | relative_url }}" alt="{{ person.name_en }} {{ person.name_zh }}" loading="lazy">
+    {% endif %}
+  {% else %}
+    <div class="people-card__photo people-card__photo--placeholder" role="img" aria-label="Photo pending"></div>
+  {% endif %}
+  <h3 class="people-card__name">{{ person.name_en }}{% if person.name_zh %} <span>{{ person.name_zh }}</span>{% endif %}</h3>
+  {% if person.role %}<p class="people-role">{{ person.role }}</p>{% endif %}
+  {% if person.period %}<p class="people-period">{{ person.period }}</p>{% endif %}
+  {% if person.research %}<p class="people-detail"><strong>Research:</strong> {{ person.research }}</p>{% endif %}
+  {% if person.focus %}<p class="people-detail"><strong>Focus:</strong> {{ person.focus }}</p>{% endif %}
+  {% if person.projects %}<p class="people-detail"><strong>Projects:</strong> {{ person.projects | join: ", " }}</p>{% endif %}
+  {% if person.destination %}<p class="people-detail"><strong>Current:</strong> {{ person.destination }}</p>{% endif %}
+  <p class="people-links">
+    {% if person.homepage %}<a href="{{ person.homepage }}">Homepage</a>{% endif %}
+    {% if person.github %}<a href="{{ person.github }}">GitHub</a>{% endif %}
+    {% if person.scholar %}<a href="{{ person.scholar }}">Scholar</a>{% endif %}
+  </p>
+</article>

@@ -1,0 +1,53 @@
+# One person can have different contextual roles on Supervision and Lab Members.
+# Add verified people to the appropriate group. Empty groups are hidden.
+
+supervisor:
+  name_en: "Liwen Zhang"
+  name_zh: "张立文"
+  photo: "https://ssds.sufe.edu.cn/_upload/article/images/e7/a7/d1445b2749ddb4264a085f18615e/dba2a7ad-ae4e-443c-bd29-2b530bb784cc.jpg"
+  role: "Professor and Doctoral Supervisor"
+  institution: "Shanghai University of Finance and Economics"
+  research: "Statistical methodology, large language models, AI for finance, and quantitative investment"
+  homepage: "https://ssds.sufe.edu.cn/99/eb/c715a236011/page.htm"
+  email: "zhang.liwen@mail.shufe.edu.cn"
+  github: "https://github.com/aifinlab"
+
+# Member fields: name_en, name_zh, photo, role, period, research,
+# projects, destination, homepage, github, scholar.
+supervision_groups:
+  - key: "postdocs"
+    title: "Postdoctoral Researchers / 博士后"
+    members: []
+  - key: "phd"
+    title: "PhD Students / 博士研究生"
+    members: []
+  - key: "masters"
+    title: "Master’s Students / 硕士研究生"
+    members: []
+  - key: "interns"
+    title: "Research Interns / 研究实习生"
+    members: []
+  - key: "alumni"
+    title: "Alumni / 已毕业学生"
+    members: []
+
+# Lab-member fields use focus for work responsibilities and may also use projects.
+lab_groups:
+  - key: "faculty"
+    title: "Faculty & Research Scientists / 教师与研究人员"
+    members: []
+  - key: "administration"
+    title: "Administration & Operations / 行政与运营"
+    members: []
+  - key: "engineering"
+    title: "Engineering Team / 工程团队"
+    members: []
+  - key: "quant"
+    title: "Quantitative Research Team / 量化研究团队"
+    members: []
+  - key: "students"
+    title: "Student Researchers / 学生研究成员"
+    members: []
+  - key: "alumni"
+    title: "Former Members / 离组成员"
+    members: []
