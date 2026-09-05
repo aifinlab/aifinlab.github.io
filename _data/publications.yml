@@ -2,6 +2,52 @@
 # _pages/publications.md. Keep each section in reverse chronological order.
 
 publications:
+  - year: 2026
+    venue_short: "ICML"
+    title: "BizFinBench.v2: Towards Reliable LLMs in Finance via Real-User Data and Offline/Online Bilingual Evaluation"
+    authors: "Guo X, Zhang R, Lu G, Guo X, Shuai J, Yang Z, Zhang, L*."
+    self_author: "L. Zhang"
+    author_mark: "*"
+    venue: "Proceedings of the 43rd International Conference on Machine Learning, 2026."
+  
+  - year: 2026
+    venue_short: "ICML"
+    title: "VideoBrain: Learning Adaptive Frame Sampling for Long Video Understanding"
+    authors: "Zou J, Huang Z, Zhang S, Zhang, L*, Shen W*."
+    self_author: "L. Zhang"
+    author_mark: "*"
+    venue: "Proceedings of the 43rd International Conference on Machine Learning, 2026."
+  
+  - year: 2026
+    venue_short: "ACL"
+    title: "FinSafetyBench: Evaluating LLM Safety in Real-World Financial Scenarios"
+    authors: "Hou Y, Jiang Y, Xie Y, Yang J, Zhang, L, Huang H*, Chen G*, Chen Y*."
+    self_author: "L. Zhang"
+    venue: "Findings of the Association for Computational Linguistics: ACL 2026, pp. 14181-14208."
+    
+  - year: 2026
+    venue_short: "J Nonparam Stat"
+    title: "Unified Inference for Quantile Varying Coefficient Models with Longitudinal/Functional Data"
+    authors: "Huang Q, Li T, You J, Zhang, L*."
+    self_author: "L. Zhang"
+    author_mark: "*"
+    venue: "Journal of Nonparametric Statistics, 38(1): 1-25, 2026."
+
+  - year: 2025
+    venue_short: "NLPCC"
+    title: "FinTeam: A Multi-Agent Collaborative Intelligence System for Comprehensive Financial Scenarios"
+    authors: "Wu Y, Wang Q, Long Z, Ye R, Lu Z, Zhang X, Li B, Chen W, Zhang, L, Wei Z."
+    self_author: "L. Zhang"
+    venue: "Natural Language Processing and Chinese Computing, 2025, pp. 443-455."
+
+  - year: 2025
+    venue_short: "FinNLP"
+    title: "FinEval-KR: A Financial Domain Evaluation Framework for Large Language Models' Knowledge and Reasoning"
+    authors: "Dou S, Shen Y, Chen M, Wang Z, Xu J, Guo Q, Shao K, Chen C, Hu H, Shi H, Min M, Zhang, L*."
+    self_author: "L. Zhang"
+    author_mark: "*"
+    venue: "Proceedings of the 10th Workshop on Financial Technology and Natural Language Processing, 2025, pp. 47-69."
+  
   - year: 2025
     venue_short: "NAACL"
     title: "FinEval: A Chinese Financial Domain Knowledge Evaluation Benchmark for Large Language Models"
