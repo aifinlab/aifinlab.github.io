@@ -7,12 +7,13 @@ author_profile: true
 
 <p class="page-intro">AIFin Lab 聚焦 AI + 金融投资大模型研究，团队覆盖金融语料、模型训练、多模态评测、金融智能体、安全风控、量化研究和工程平台。</p>
 
-## Director / 实验室负责人
+<h2>Director / 实验室负责人</h2>
 
 {% include featured-person.html person=site.data.people.supervisor %}
 
-## Team / 团队成员
+<h2>Team / 团队成员</h2>
 
+<div class="lab-directory">
 {% assign lab_has_members = false %}
 {% for group in site.data.people.lab_groups %}
   {% if group.members and group.members != empty %}
@@ -31,5 +32,6 @@ author_profile: true
 {% unless lab_has_members %}
 <p class="content-pending">教师、研究人员、行政运营、工程及学生成员资料将在获得本人确认后发布。</p>
 {% endunless %}
+</div>
 
 <p class="source-note">开源项目与团队协作信息请参见 <a href="https://github.com/aifinlab">AIFin Lab on GitHub</a>。</p>
