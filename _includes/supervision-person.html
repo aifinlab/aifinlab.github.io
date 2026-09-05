@@ -1,0 +1,21 @@
+{% assign student = include.person %}
+{% assign student_name = student.name_en | default: student.name_zh | default: student %}
+<article class="people-card">
+  {% if student.photo and student.photo != empty %}
+    {% assign photo_url = student.photo %}
+    {% unless photo_url contains '://' %}{% assign photo_url = photo_url | relative_url %}{% endunless %}
+    <img class="people-card__photo" src="{{ photo_url }}" alt="{{ student_name | escape }}" loading="lazy" width="180" height="180">
+  {% else %}
+    <div class="people-card__photo supervision-avatar" aria-hidden="true"><span>照片待上传</span></div>
+  {% endif %}
+  <h4 class="people-card__name">
+    {% if student.homepage %}<a href="{{ student.homepage }}">{% endif %}
+    {{ student_name | escape }}{% if student.name_en and student.name_zh %} <span>{{ student.name_zh | escape }}</span>{% endif %}
+    {% if student.homepage %}</a>{% endif %}
+  </h4>
+  <p class="people-role">{% if student.role %}{{ student.role | escape }}{% else %}{% case include.group.key %}{% when 'phd' %}Ph.D. student{% when 'masters' %}Master’s student{% when 'postdocs' %}Post-doc{% when 'interns' %}Research intern{% when 'alumni' %}Alumni{% else %}{{ include.group.title | escape }}{% endcase %}{% endif %}</p>
+  {% if student.period and student.period != empty %}<p class="people-period">{{ student.period | escape }}</p>{% endif %}
+  {% if student.research %}<p class="people-detail">{{ student.research | escape }}</p>{% endif %}
+  {% if student.destination %}<p class="people-detail">{{ student.destination | escape }}</p>{% endif %}
+  {% if student.github or student.scholar %}<p class="people-links">{% if student.github %}<a href="{{ student.github }}">GitHub</a>{% endif %}{% if student.scholar %}<a href="{{ student.scholar }}">Scholar</a>{% endif %}</p>{% endif %}
+</article>
