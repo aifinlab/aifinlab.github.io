@@ -11,6 +11,7 @@ author_profile: true
 
 ## Current Students & Alumni / 在读学生与毕业生
 
+<div class="supervision-directory">
 {% assign supervision_has_members = false %}
 {% for group in site.data.people.supervision_groups %}
   {% if group.members and group.members != empty %}
@@ -19,7 +20,7 @@ author_profile: true
       <h3 id="supervision-{{ group.key }}">{{ group.title }}</h3>
       <div class="people-grid">
         {% for person in group.members %}
-          {% include member-card.html person=person %}
+          {% include supervision-person.html person=person group=group %}
         {% endfor %}
       </div>
     </section>
@@ -29,6 +30,7 @@ author_profile: true
 {% unless supervision_has_members %}
 <p class="content-pending">学生名单与个人资料将在获得成员确认后发布。</p>
 {% endunless %}
+</div>
 
 ## Research Supervision
 
