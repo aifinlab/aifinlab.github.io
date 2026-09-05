@@ -7,6 +7,24 @@ academic:
       invited: true
       title: "Large Language Models in the Financial Domain"
 
+    - date: "2026"
+      event: "第四届统计与数据科学联合会议暨 IMS China 双年会"
+      location: "贵州财经大学"
+      invited: true
+      title: "Large Language Models in the Financial Domain"
+
+    - date: "2026"
+      event: "WAIC 2026 智能经济发展生态论坛"
+      location: "上海财经大学"
+      invited: true
+      title: "FinCorpus 金融数据智能服务平台和 FinEval 金融大模型评测系统"
+
+    - date: "2025"
+      event: "2025 经济、科技与交叉科学国际峰会（ETIS2025）"
+      location: "上海"
+      invited: true
+      title: "Large Language Models in the Financial Domain"
+    
     - date: "2025.08.16"
       event: "第二届 CCF 中国数字金融大会·金融大模型主题论坛"
       location: "上海"
@@ -41,11 +59,21 @@ academic:
 industry:
   title: "Industry Lectures / 产业讲座"
   items:
+    - date: "2026.07.29"
+      event: "上海市统计局培训班"
+      location: "上海"
+      title: "统计金融大模型前沿理论及创新应用"
+    
     - date: "2025.03.20"
       event: "上财 iMBA 项目 iFeel 公开课"
       location: "线上"
       title: "DeepSeek 底层逻辑剖析与商业实战路径"
 
+    - date: "2025.03.04"
+      event: "“走进场景”周周会系列培训会（金融领域）"
+      location: "上海"
+      title: "金融领域人工智能应用与场景创新"
+    
     - date: "2025.02.28"
       event: "“智汇互联”产学研交流活动"
       location: "华为城市灵境场景创新中心（上海）"
