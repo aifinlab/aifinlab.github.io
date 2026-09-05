@@ -12,6 +12,8 @@ supervisor:
   email: "zhang.liwen@mail.shufe.edu.cn"
   github: "https://github.com/aifinlab"
 
+# Photos: upload to images/students/, then set photo to /images/students/filename.jpg.
+# Leave photo empty to display a placeholder; period is optional.
 # Member fields: name_en, name_zh, photo, role, period, research,
 # projects, destination, homepage, github, scholar.
 supervision_groups:
@@ -20,10 +22,58 @@ supervision_groups:
     members: []
   - key: "phd"
     title: "PhD Students / 博士研究生"
-    members: ["杨智", "刘志强", "董艺凡", "齐祺", "韩懿扬", "李梦萍", "娄方齐", "郭鑫", "张威"]
+    members:
+      - name_zh: "杨智"
+        photo: "/images/students/杨智.jpg"
+        period: "2020.09-至今"
+      - name_zh: "刘志强"
+        photo: "/images/students/刘志强.jpg"
+        period: "2022.09-至今"
+      - name_zh: "董艺凡"
+        photo: "/images/students/董艺凡.jpg"
+        period: "2025.09-至今"
+      - name_zh: "齐祺"
+        photo: "/images/students/齐祺.jpg"
+        period: "2025.09-至今"
+      - name_zh: "韩懿扬"
+        photo: "/images/students/韩懿扬.jpg"
+        period: "2025.07-至今"
+      - name_zh: "李梦萍"
+        photo: "/images/students/李梦萍.jpg"
+        period: "2025.05-至今"
+      - name_zh: "娄方齐"
+        photo: "/images/students/娄方齐.jpeg"
+        period: "2024.06-至今"
+      - name_zh: "郭鑫"
+        photo: "/images/students/郭鑫.png"
+        period: "2021.09-至今"
+      - name_zh: "张威"
+        photo: "/images/students/张威.jpeg"
+        period: "2025.09-至今"
   - key: "masters"
     title: "Master’s Students / 硕士研究生"
-    members: ["李小童", "杨力源", "冯政博", "刘赵伟", "曾凌峰", "金志恒", "虞帧雄"]
+    members:
+      - name_zh: "李小童"
+        photo: "/images/students/李小童.JPEG"
+        period: "2025.10-至今"
+      - name_zh: "杨力源"
+        photo: "/images/students/杨力源.JPG"
+        period: "2025.09-至今"
+      - name_zh: "冯政博"
+        photo: "/images/students/冯政博.jpg"
+        period: "2025.04-至今"
+      - name_zh: "刘赵伟"
+        photo: "/images/students/刘赵伟.png"
+        period: "2023.09-至今"
+      - name_zh: "曾凌峰"
+        photo: "/images/students/曾凌峰.png"
+        period: "2024.09-至今"
+      - name_zh: "金志恒"
+        photo: "/images/students/金志恒.png"
+        period: "2025.11-至今"
+      - name_zh: "虞帧雄"
+        photo: "/images/students/虞帧雄.png"
+        period: "2025.10-至今"
   - key: "interns"
     title: "Research Interns / 研究实习生"
     members: []
