@@ -97,16 +97,7 @@ lab_groups:
     members: []
   - key: "students"
     title: "Student Researchers / 学生研究成员"
-    members: 
-      - name_zh: "杨智"
-        photo: "/images/students/杨智.jpg"
-        role: "Student Researcher"
-        period: "2020.09-至今"
-        focus: "金融大模型与智能体研究"
-        projects: []
-        homepage:
-        github:
-        scholar:
+    members: []
   - key: "alumni"
     title: "Former Members / 离组成员"
     members: []
