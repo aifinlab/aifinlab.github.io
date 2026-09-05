@@ -13,7 +13,7 @@ publications:
   - year: 2026
     venue_short: "ICML"
     title: "VideoBrain: Learning Adaptive Frame Sampling for Long Video Understanding"
-    authors: "Zou J, Huang Z, Zhang S, Zhang, L, Shen W."
+    authors: "Zou J, Huang Z, Zhang S, Zhang, L, Shen W†."
     self_author: "Zhang, L"
     author_mark: "†"
     venue: "Proceedings of the 43rd International Conference on Machine Learning, 2026."
@@ -21,14 +21,14 @@ publications:
   - year: 2026
     venue_short: "ACL"
     title: "FinSafetyBench: Evaluating LLM Safety in Real-World Financial Scenarios"
-    authors: "Hou Y, Jiang Y, Xie Y, Yang J, Zhang, L, Huang H*, Chen G*, Chen Y*."
+    authors: "Hou Y, Jiang Y, Xie Y, Yang J, Zhang, L, Huang H†, Chen G†, Chen Y†."
     self_author: "Zhang, L"
     venue: "Findings of the Association for Computational Linguistics: ACL 2026, pp. 14181-14208."
     
   - year: 2026
     venue_short: "J Nonparam Stat"
     title: "Unified Inference for Quantile Varying Coefficient Models with Longitudinal/Functional Data"
-    authors: "Huang Q, Li T, You J, Zhang, L."
+    authors: "Huang Q, Li T†, You J, Zhang, L."
     self_author: "Zhang, L"
     author_mark: "†"
     venue: "Journal of Nonparametric Statistics, 38(1): 1-25, 2026."
@@ -51,8 +51,8 @@ publications:
   - year: 2025
     venue_short: "NAACL"
     title: "FinEval: A Chinese Financial Domain Knowledge Evaluation Benchmark for Large Language Models"
-    authors: "Xin Guo, Haotian Xia, Zhaowei Liu, et al., Liwen Zhang."
-    self_author: "Liwen Zhang"
+    authors: "Xin Guo, Haotian Xia, Zhaowei Liu, et al., Zhang, L."
+    self_author: "Zhang, L"
     author_mark: "†"
     venue: "NAACL 2025, Long Papers, pp. 6258–6292."
     paper: "https://aclanthology.org/2025.naacl-long.318/"
@@ -62,8 +62,8 @@ publications:
   - year: 2025
     venue_short: "EMNLP"
     title: "VisFinEval: A Scenario-Driven Chinese Multimodal Benchmark for Holistic Financial Understanding"
-    authors: "Zhaowei Liu, Xin Guo, Haotian Xia, et al., Liwen Zhang."
-    self_author: "Liwen Zhang"
+    authors: "Zhaowei Liu, Xin Guo, Haotian Xia, et al., Zhang, L."
+    self_author: "Zhang, L"
     author_mark: "†"
     venue: "EMNLP 2025, Main Conference."
     paper: "https://aclanthology.org/2025.emnlp-main.1229/"
@@ -73,83 +73,83 @@ publications:
   - year: 2025
     venue_short: "CJS"
     title: "Unified Inference for Longitudinal/Functional Data Quantile Dynamic Additive Models"
-    authors: "Q. Huang, T. Li, J. You, L. Zhang."
-    self_author: "L. Zhang"
+    authors: "Q. Huang, T. Li, J. You, Zhang, L."
+    self_author: "Zhang, L"
     author_mark: "†"
     venue: "Canadian Journal of Statistics, 2025, e70006."
 
   - year: 2025
     venue_short: "CJS"
     title: "Robust Change Point Detection for High-Dimensional Linear Models with Tolerance for Outliers and Heavy Tails"
-    authors: "Z. Yang, L. Zhang, S. Sun, B. Liu."
-    self_author: "L. Zhang"
+    authors: "Z. Yang, Zhang, L, S. Sun, B. Liu†."
+    self_author: "Zhang, L"
     venue: "Canadian Journal of Statistics, 53(1), e11826, 2025."
 
   - year: 2023
     venue_short: "ICML"
     title: "Variance Control for Distributional Reinforcement Learning"
-    authors: "Q. Kuang, Z. Zhu, L. Zhang, F. Zhou."
-    self_author: "L. Zhang"
+    authors: "Q. Kuang, Z. Zhu, Zhang, L, F. Zhou†."
+    self_author: "Zhang, L"
     venue: "ICML 2023, pp. 17874–17895."
 
   - year: 2022
     venue_short: "CJS"
     title: "Shrinkage Quantile Regression for Panel Data with Multiple Structural Breaks"
-    authors: "L. Zhang, Z. Zhu, X. Feng, Y. He."
-    self_author: "L. Zhang"
+    authors: "Zhang, L, Z. Zhu, X. Feng, Y. He†."
+    self_author: "Zhang, L"
     venue: "Canadian Journal of Statistics, 50(3), 820–851, 2022."
 
   - year: 2022
     venue_short: "SJS"
     title: "Efficient Inference of Longitudinal/Functional Data Models with Time-Varying Additive Structure"
-    authors: "Q. Huang, J. You, L. Zhang."
-    self_author: "L. Zhang"
+    authors: "Q. Huang, J. You, Zhang, L."
+    self_author: "Zhang, L"
     author_mark: "†"
     venue: "Scandinavian Journal of Statistics, 49(2), 744–771, 2022."
 
   - year: 2021
     venue_short: "IJCAI"
     title: "Non-decreasing Quantile Function Network with Efficient Exploration for Distributional Reinforcement Learning"
-    authors: "F. Zhou, Z. Zhu, Q. Kuang, L. Zhang."
-    self_author: "L. Zhang"
+    authors: "F. Zhou, Z. Zhu, Q. Kuang, Zhang, L."
+    self_author: "Zhang, L"
     author_mark: "†"
     venue: "IJCAI 2021, pp. 3455–3461."
 
   - year: 2021
     venue_short: "SIM"
     title: "Bayesian Phase II Clinical Trial Design with Noncompliance"
-    authors: "T. Ren, W. Shen, L. Zhang, H. Zhao."
-    self_author: "L. Zhang"
+    authors: "T. Ren, W. Shen, Zhang, L, H. Zhao."
+    self_author: "Zhang, L"
     author_mark: "†"
     venue: "Statistics in Medicine, 40(20), 4457–4472, 2021."
 
   - year: 2021
     venue_short: "Biometrics"
     title: "Regularized Matrix Data Clustering and Its Application to Image Analysis"
-    authors: "X. Gao, W. Shen, L. Zhang, et al."
-    self_author: "L. Zhang"
+    authors: "X. Gao, W. Shen†, Zhang, L, et al."
+    self_author: "Zhang, L"
     venue: "Biometrics, 77(3), 890–902, 2021."
 
   - year: 2020
     venue_short: "JEF"
     title: "Global Investigation on the Country-Level Idiosyncratic Volatility and Its Determinants"
-    authors: "M. O. Caglayan, W. Xue, L. Zhang."
-    self_author: "L. Zhang"
+    authors: "M. O. Caglayan, W. Xue, Zhang, L."
+    self_author: "Zhang, L"
     author_mark: "†"
     venue: "Journal of Empirical Finance, 55, 143–160, 2020."
 
   - year: 2017
     venue_short: "AISM"
     title: "Composite Change Point Estimation for Bent Line Quantile Regression"
-    authors: "L. Zhang, H. J. Wang, Z. Zhu."
-    self_author: "L. Zhang"
+    authors: "Zhang, L, H. J. Wang, Z. Zhu."
+    self_author: "Zhang, L"
     venue: "Annals of the Institute of Statistical Mathematics, 69(1), 145–168, 2017."
 
   - year: 2016
     venue_short: "Biometrics"
     title: "Sequential Model Selection Based Segmentation in Linear Regression: An Application to Array CGH Data"
-    authors: "J. Hu, L. Zhang, H. Wang."
-    self_author: "L. Zhang"
+    authors: "J. Hu, Zhang, L, H. Wang."
+    self_author: "Zhang, L"
     venue: "Biometrics, 72(3), 815–826, 2016."
 
 preprints:
