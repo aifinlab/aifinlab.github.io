@@ -15,10 +15,27 @@ courses:
     role: "授课教师"
 
   - term: "待补充学期"
+    name: "人工智能金融"
+    school: "统计与数据科学学院"
+    audience: "本科生"
+    role: "授课教师"
+
+  - term: "待补充学期"
+    name: "数学分析Ⅲ"
+    school: "统计与数据科学学院"
+    audience: "本科生"
+    role: "授课教师"
+  
+  - term: "待补充学期"
     name: "大数据挖掘"
     school: "上海财经大学"
     role: "授课教师"
 
+  - term: "待补充学期"
+    name: "人工智能与产业趋势"
+    school: "上海财经大学"
+    role: "授课教师"
+    
   - term: "待补充学期"
     name: "大数据商业实战"
     audience: "MBA / EMBA"
@@ -43,3 +60,7 @@ awards:
   - year: 2025
     title: "申万宏源奖教金特等奖"
     organization: "上海财经大学"
+
+  - year: 2024
+    title: "多元导向、数智赋能，新时代统计与数据科学人才培养的创新实践"
+    organization: "上海财经大学
