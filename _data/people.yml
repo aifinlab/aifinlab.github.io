@@ -20,10 +20,10 @@ supervision_groups:
     members: []
   - key: "phd"
     title: "PhD Students / 博士研究生"
-    members: []
+    members: ["杨智", "刘志强", "董艺凡", "齐祺", "韩懿扬", "李梦萍", "娄方齐", "郭鑫", "张威"]
   - key: "masters"
     title: "Master’s Students / 硕士研究生"
-    members: []
+    members: ["李小童", "杨力源", "冯政博", "刘赵伟", "曾凌峰", "金志恒", "虞帧雄"]
   - key: "interns"
     title: "Research Interns / 研究实习生"
     members: []
