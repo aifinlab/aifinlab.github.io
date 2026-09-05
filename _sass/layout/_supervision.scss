@@ -1,5 +1,6 @@
-/* Scoped to the student directory; other page sections keep their styles. */
-.supervision-directory {
+/* Scoped to people directories; other page sections keep their styles. */
+.supervision-directory,
+.lab-directory {
   .people-group { margin-top: 1.75rem; }
   .people-group > h3 { border: 0; font-size: 1.1rem; }
 
