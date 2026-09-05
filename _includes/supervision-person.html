@@ -4,7 +4,7 @@
   {% if student.photo and student.photo != empty %}
     {% assign photo_url = student.photo %}
     {% unless photo_url contains '://' %}{% assign photo_url = photo_url | relative_url %}{% endunless %}
-    <img class="people-card__photo" src="{{ photo_url }}" alt="{{ student_name | escape }}" loading="lazy" width="180" height="180">
+    <img class="people-card__photo" src="{{ photo_url }}" alt="{{ student_name | escape }}" loading="lazy" width="180" height="240">
   {% else %}
     <div class="people-card__photo supervision-avatar" aria-hidden="true"><span>照片待上传</span></div>
   {% endif %}
