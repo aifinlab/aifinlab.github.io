@@ -1,0 +1,39 @@
+/* Scoped to the student directory; other page sections keep their styles. */
+.supervision-directory {
+  .people-group { margin-top: 1.75rem; }
+  .people-group > h3 { border: 0; font-size: 1.1rem; }
+
+  .people-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 2rem 1.5rem;
+    margin: 1rem 0 2.5rem;
+  }
+
+  .people-card__photo {
+    width: 100%;
+    max-width: 180px;
+    height: auto;
+    aspect-ratio: 1;
+    object-fit: cover;
+    object-position: center top;
+    border-radius: 0;
+  }
+
+  .supervision-avatar {
+    display: grid;
+    place-items: center;
+    color: var(--global-text-color-light);
+    background: var(--profile-surface-soft);
+    border: 1px solid var(--global-border-color);
+    font-size: 0.8rem;
+    font-weight: 400;
+  }
+
+  .people-card__name { margin: 0.7rem 0 0.3rem; font-size: 1rem; }
+  .people-role, .people-period, .people-detail { font-size: 0.85rem; font-weight: 400; }
+
+  @media (max-width: 600px) {
+    .people-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem 1rem; }
+    .people-card__name span { white-space: normal; }
+  }
+}
