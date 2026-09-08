@@ -74,7 +74,7 @@ supervision_groups:
   - key: "undergraduate"
     title: "Undergraduate Student/ 本科生"
     members: []
- - key: "Exchange Student"
+  - key: "Exchange Student"
     title: "Exchange Student / 交流学生"
     members: []
   - key: "alumni"
