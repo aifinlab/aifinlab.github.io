@@ -71,15 +71,15 @@ supervision_groups:
       - name_zh: "虞帧雄"
         photo: "/images/students/虞帧雄.png"
         period: "2025.10-至今"
-    - key: "undergraduate"
-     title: "Undergraduate Student/ 本科生"
-     members: []
-   - key: "Exchange Student"
-     title: "Exchange Student / 交流学生"
-     members: []
-   - key: "alumni"
-     title: "Alumni / 已毕业学生"
-     members: []
+  - key: "undergraduate"
+    title: "Undergraduate Student/ 本科生"
+    members: []
+ - key: "Exchange Student"
+    title: "Exchange Student / 交流学生"
+    members: []
+  - key: "alumni"
+    title: "Alumni / 已毕业学生"
+    members: []
 
 # Lab-member fields use focus for work responsibilities and may also use projects.
 lab_groups:
