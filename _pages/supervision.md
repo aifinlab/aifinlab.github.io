@@ -32,46 +32,30 @@ author_profile: true
 {% endunless %}
 </div>
 
-<h2>Research Supervision</h2>
 
-<p>课题组指导方向聚焦统计学、人工智能和金融学的交叉，强调从理论问题、数据基座和评测标准出发，形成可复现论文、开源模型、基准数据集或产业系统。</p>
 
-<div class="profile-grid">
-<div class="profile-card">
-<h3>Large-Model Training</h3>
-<p>金融领域预训练、指令微调、强化学习、高质量金融推理数据构建。</p>
-</div>
-<div class="profile-card">
-<h3>Evaluation & Safety</h3>
-<p>金融大模型与智能体的知识、推理、多模态、工具使用和执行安全评测。</p>
-</div>
-<div class="profile-card">
-<h3>Financial Agents</h3>
-<p>面向银行、证券、保险、基金和量化投资流程的智能体、工具调用与风险控制。</p>
-</div>
-<div class="profile-card">
-<h3>Statistical Methodology</h3>
-<p>分位数回归、变点检测、高维数据、纵向/函数型数据与统计推断。</p>
-</div>
-</div>
+<h2>Student Awards</h2>
 
-<h2>What We Value</h2>
-
-<ul>
-  <li>积极主动，能够将模糊问题转化为可检验的研究任务；</li>
-  <li>对科学研究或工程落地具有持久兴趣；</li>
-  <li>具备统计、数学、计算机或金融中至少一项扎实基础；</li>
-  <li>重视研究诚信、实验复现、文档与团队协作。</li>
-</ul>
-
-<h2>Supervision Process</h2>
-
-<ol>
-  <li><strong>Problem definition</strong>：明确研究问题、数据边界、评价指标与预期产出。</li>
-  <li><strong>Baseline and reproduction</strong>：完成文献调研、基线复现和数据/代码质量检查。</li>
-  <li><strong>Research iteration</strong>：通过定期讨论、实验记录和阶段性报告推进方法迭代。</li>
-  <li><strong>Research output</strong>：形成论文、模型、数据集、开源工程或产业验证结果。</li>
-</ol>
+{% if site.data.supervision.awards and site.data.supervision.awards != empty %}
+<table class="supervision-awards">
+  <thead>
+    <tr>
+      <th scope="col">序号</th>
+      <th scope="col">奖项名称</th>
+      <th scope="col">奖励年度</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for award in site.data.supervision.awards %}
+    <tr>
+      <td>{{ forloop.index }}</td>
+      <td><strong>{{ award.title }}</strong></td>
+      <td>{{ award.year }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endif %}
 
 <h2>Prospective Students & Interns</h2>
 
