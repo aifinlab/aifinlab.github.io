@@ -152,15 +152,144 @@ publications:
     self_author: "Zhang, L"
     venue: "Biometrics, 72(3), 815–826, 2016."
 
+  - year: 2020
+    title: "Conditional quantile estimation for hysteretic autoregressive models"
+    authors: "Li D, Zeng R, Zhang, L, Li W K, Li G*."
+    self_author: "Zhang, L"
+    venue: "Statistica Sinica, 2020, 30(2): 809-827."
+
+  - year: 2019
+    title: "Estimating restricted common structural changes for panel data"
+    authors: "Zhang, L, Zhu Z*."
+    self_author: "Zhang, L"
+    venue: "Acta Mathematicae Applicatae Sinica, English Series, 2019, 35(4): 893-908."
+
+  - year: 2019
+    title: "Revisiting the asymmetric effects of bank credit on the business cycle: A panel quantile regression approach"
+    authors: "Xue W, Zhang, L*."
+    self_author: "Zhang, L"
+    venue: "The Journal of Economic Asymmetries, 2019, 20: e00122."
+
+  - year: 2018
+    title: "Variable selection for high dimensional Gaussian copula regression model: An adaptive hypothesis testing procedure"
+    authors: "He Y, Zhang X, Zhang, L*."
+    self_author: "Zhang, L"
+    venue: "Computational Statistics & Data Analysis, 2018, 124: 132-150."
+
+  - year: 2017
+    title: "Stock return autocorrelations and predictability in the Chinese stock market—Evidence from threshold quantile autoregressive models"
+    authors: "Xue W, Zhang, L*."
+    self_author: "Zhang, L"
+    venue: "Economic Modelling, 2017, 60: 391-401."
+
+  - year: 2017
+    title: "High dimensional Gaussian copula graphical model with FDR control"
+    authors: "He Y, Zhang X, Wang P, Zhang L*."
+    self_author: "Zhang, L"
+    venue: "Computational Statistics & Data Analysis, 2017, 113: 457-474."
+
+  - year: 2015
+    title: "Testing for change points in partially linear models"
+    authors: "Zhang L, Zhu Z*."
+    self_author: "Zhang L"
+    venue: "Acta Mathematicae Applicatae Sinica, English Series, 2015, 31(4): 879-892."
+
+  - year: 2014
+    title: "Testing for change points due to a covariate threshold in quantile regression"
+    authors: "Zhang, L, Wang H J, Zhu Z*."
+    self_author: "Zhang, L"
+    venue: "Statistica Sinica, 2014, 24(4): 1859-1877."
+
+  - year: 2022
+    title: "复合分位数下门限自回归模型的变点估计"
+    authors: "张立文*,程东坡,薛文骏,杨廷干."
+    self_author: "张立文"
+    venue: "中国科学:数学,2022,52(1):63-84."
+
+  - year: 2020
+    title: "基于深度学习的乘用车市场预警模型研究"
+    authors: "张立文,朱周帆,郝鸿."
+    self_author: "张立文"
+    venue: "系统科学与数学,2020,40(11): 2136-2150."
+
+  - year: 2020
+    title: "基于机器学习与时间序列组合模型的中国汽车市场预测"
+    authors: "朱周帆,郝鸿,张立文*."
+    self_author: "张立文"
+    venue: "统计与决策,2020,36(8):177-180."
+
+  - year: 2019
+    title: "新时代背景下环境保护政策对雾霾防治的效应分析——基于PM2.5浓度变化视角的实证研究"
+    authors: "张立文*,程东坡,许玲丽."
+    self_author: "张立文"
+    venue: "上海财经大学学报,2019,21(2):17-29."
+
+  - year: 2018
+    title: "删失分位数回归模型中的变点检测问题"
+    authors: "张立文,倪中新,何勇*,朱周帆."
+    self_author: "张立文"
+    venue: "中国科学:数学,2018,48(9):1159-1180."
+
+  - year: 2011
+    title: "混合序列均值变点的收敛速度研究"
+    authors: "张立文,周秀轻."
+    self_author: "张立文"
+    venue: "南京大学学报(数学半年刊),2011,28(1):97-105."
+
+  - year: 2010
+    title: "P阶自回归模型中的变点检验问题"
+    authors: "张立文,周秀轻."
+    self_author: "张立文"
+    venue: "南京师大学报(自然科学版),2010,33(2):13-17."
+
 preprints:
   - year: 2026
+    title: "G-AEGIS: A Training-Free Runtime Shield for Safe Computer-Use Agents"
+    authors: "Luo J, Li Y, Yang Z, Chen Z, Hu S, Zhang S, Wang H, Lan Q, Chen R, Zhang L*."
+    self_author: "Zhang L"
+    venue: "Submitted to NeurIPS 2026, Under Review."
+
+  - year: 2026
+    title: "Spider-Sense: Intrinsic Risk Sensing for Efficient Agent Defense with Hierarchical Adaptive Screening"
+    authors: "Yu Z, Jin Z, Yang Z, Chang Z, Fei Y, Zeng L, Zhang S, Hu T, Lou F, Chen R, Zhu X, Wang K, Yuan C, Guo X, Liu Z, Zhang F, Huang J, Lan Q, Chen R, Zhang L*."
+    self_author: "Zhang L"
+    venue: "Submitted to NeurIPS 2026, Under Review."
+
+  - year: 2026
     title: "UniFinEval: Towards Unified Evaluation of Financial Multimodal Models across Text, Images and Videos"
-    authors: "Zhi Yang, Lingfeng Zeng, Fangqi Lou, et al., Liwen Zhang."
-    self_author: "Liwen Zhang"
-    venue: "arXiv:2601.22162, 2026."
-    paper: "https://arxiv.org/abs/2601.22162"
-    code: "https://github.com/aifinlab/UniFinEval"
-    data: "https://github.com/aifinlab/UniFinEval"
+    authors: "Lou F, Yang Z, Zeng L, Jin Z, Qi Q, Zhang W, Wu Z, Yu Z, Zhang L, Huang X, Liang X, Wei Z, Zou J, Cheng D, Liu Z, Guo X, Zhang R, Zhang L*."
+    self_author: "Zhang L"
+    venue: "Submitted to EMNLP 2026, Under Review."
+
+  - year: 2026
+    title: "EvoFSM: Controllable Self-Evolution for Deep Research with Finite State Machines"
+    authors: "Zhang S, Yuan C, Guo H, Wang H, Yu X, Chen Z, Yang Z, Tang Z, Hu S, Zhang L, Chen R, Wang H."
+    self_author: "Zhang L"
+    venue: "Submitted to EMNLP 2026, Under Review."
+
+  - year: 2026
+    title: "StreamProfileBench: A Benchmark for Fine-Grained User Profile Inference in Real-World Streaming Scenarios"
+    authors: "Wang S, Duan F, Wang J, Zhang L*, Wei Z*."
+    self_author: "Zhang L"
+    venue: "Submitted to EMNLP 2026, Under Review."
+
+  - year: 2026
+    title: "FinVault: Benchmarking Financial Agent Safety in Execution-Grounded Environments"
+    authors: "Yang Z, Yu Z, Wang J, Li R, Jin Z, Qiang Q, Zhang S, Liang X, Huang X, Wei Z, Guo X, Wang H, Chen R, Zhang L*."
+    self_author: "Zhang L"
+    venue: "Submitted to EMNLP 2026, Under Review."
+
+  - year: 2026
+    title: "MCP-Vault: A Comprehensive Evaluation of LLM Security Boundaries in Financial MCP Tasks"
+    authors: "Zhou Z, Li Y, Yang Z, Gan G, Lou F, Cheng D, Huang J, Guo X, Zhang L*."
+    self_author: "Zhang L"
+    venue: "Submitted to EMNLP 2026, Under Review."
+
+  - year: 2026
+    title: "FinSafe: A Fine Grained Financial Safety Evaluation Framework for Large Language Models"
+    authors: "Li M, Gu J, Liu H, Yang C, Zhou Z, Zeng L, Zhang K, Yang Z, Zhang L*."
+    self_author: "Zhang L"
+    venue: "Submitted to EMNLP 2026, Under Review."
 
   - year: 2026
     title: "QuantaAlpha: An Evolutionary Framework for LLM-Driven Alpha Mining"
