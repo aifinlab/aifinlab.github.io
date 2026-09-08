@@ -260,17 +260,20 @@ html[data-theme="dark"] {
 
 .course-list {
   margin: 0.8rem 0 2.8rem;
-  padding-left: 2rem;
+}
+
+.teaching-term {
+  margin: 0 0 1.8rem;
+}
+
+.teaching-term h2 {
+  margin-bottom: 0.35rem;
+  font-size: 1.1rem;
 }
 
 .course-item {
-  margin-bottom: 0.9rem;
-  padding-left: 0.2rem;
+  margin-bottom: 0.35rem;
   line-height: 1.75;
-}
-
-.course-term {
-  white-space: nowrap;
 }
 
 .course-name {
