@@ -12,6 +12,7 @@ supervisor:
   email: "zhang.liwen@mail.shufe.edu.cn"
   github: "https://github.com/aifinlab"
 
+
 # Photos: upload to images/students/, then set photo to /images/students/filename.jpg.
 # Leave photo empty to display a placeholder; period is optional.
 # Member fields: name_en, name_zh, photo, role, period, research,
