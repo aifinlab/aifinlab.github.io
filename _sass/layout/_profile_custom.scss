@@ -331,6 +331,17 @@ html[data-theme="dark"] {
   line-height: 1.7;
 }
 
+.featured-person__bio {
+  margin: 1.3rem 0 1.5rem;
+  padding-left: 0.9rem;
+  border-left: 3px solid var(--profile-brand);
+}
+
+.featured-person__bio p {
+  margin: 0.35rem 0;
+  line-height: 1.7;
+}
+
 .people-group {
   margin-top: 2.4rem;
 }
