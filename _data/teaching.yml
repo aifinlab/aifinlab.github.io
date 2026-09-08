@@ -1,64 +1,86 @@
 # Replace “待补充学期” with verified semester information before publication.
 # Optional fields: code, institution, school, audience, role, url.
+# term 为列表时表示该课程多个学期重复开设（按最新在前排列）。
+
+好的，我已将全部课程中的学期格式统一改为“学年-学年秋/春”的简写形式（去掉“学年”和“学期”字样），其他信息保持不变。修改后的完整课程列表如下：
 
 courses:
-  - term: "待补充学期"
+  - term: "2019-2020秋"
     name: "概率论"
     school: "统计与数据科学学院"
     audience: "本科生"
     role: "授课教师"
 
-  - term: "待补充学期"
+  - term: ["2019-2020春", "2018-2019春"]
     name: "数理统计"
     school: "统计与数据科学学院"
     audience: "本科生"
     role: "授课教师"
 
-  - term: "待补充学期"
+  - term: "2025-2026春"
     name: "人工智能金融"
     school: "统计与数据科学学院"
     audience: "本科生"
     role: "授课教师"
 
-  - term: "待补充学期"
+  - term: ["2025-2026秋", "2024-2025秋", "2023-2024秋", "2022-2023秋", "2021-2022秋", "2020-2021秋"]
     name: "数学分析Ⅲ"
     school: "统计与数据科学学院"
     audience: "本科生"
     role: "授课教师"
-  
-  - term: "待补充学期"
+
+  - term: "2018-2019秋"
+    name: "数据库"
+    school: "统计与数据科学学院"
+    audience: "本科生"
+    role: "授课教师"
+
+  - term: ["2025-2026春", "2024-2025春", "2023-2024春", "2022-2023春", "2021-2022春", "2020-2021春"]
     name: "大数据挖掘"
-    school: "上海财经大学"
+    school: "统计与数据科学学院"
+    audience: "硕士研究生"
     role: "授课教师"
 
-  - term: "待补充学期"
-    name: "人工智能与产业趋势"
-    school: "上海财经大学"
-    role: "授课教师"
-    
-  - term: "待补充学期"
-    name: "大数据商业实战"
-    audience: "MBA / EMBA"
+  - term: "2025-2026秋"
+    name: "人工智能前沿与产业趋势"
+    school: "统计与数据科学学院"
+    audience: "硕士研究生"
     role: "授课教师"
 
-  - term: "待补充学期"
-    name: "人工智能和量化投资"
-    audience: "MBA / EMBA"
+  - term: ["2019-2020秋", "2018-2019秋"]
+    name: "数据库管理"
+    school: "统计与数据科学学院"
+    audience: "硕士研究生"
     role: "授课教师"
 
-  - term: "待补充学期"
-    name: "金融大模型理论与应用"
-    audience: "研究训练"
-    role: "指导教师"
+  - term: "2018-2019春"
+    name: "数据、模型与决策（运筹学）"
+    school: "统计与数据科学学院"
+    audience: "硕士研究生"
+    role: "授课教师"
 
-  - term: "待补充学期"
-    name: "金融 AI 评测、安全与智能体"
-    audience: "研究训练"
-    role: "指导教师"
+  - term: "2018-2019秋"
+    name: "计量软件与编程"
+    school: "经济学院"
+    audience: "硕士研究生"
+    role: "授课教师"
+
 
 awards:
+  - year: 2026
+    title: "上海财经大学创新创业工作先进个人称号"
+    organization: "上海财经大学"
+
+  - year: 2025
+    title: "衍数奖一突出贡献奖"
+    organization: " 上海财经大学统计与数据科学学院"
+
   - year: 2025
     title: "申万宏源奖教金特等奖"
+    organization: "上海教育发展基金会"
+
+  - year: 2025
+    title: "上海财经大学教学成果奖特等奖"
     organization: "上海财经大学"
 
   - year: 2024
