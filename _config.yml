@@ -23,7 +23,7 @@ repository               : "aifinlab/aifinlab.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "https://ssds.sufe.edu.cn/_upload/article/images/e7/a7/d1445b2749ddb4264a085f18615e/dba2a7ad-ae4e-443c-bd29-2b530bb784cc.jpg"
+  avatar           : "zhang-liwen.jpg"
   name             : "Liwen Zhang (张立文)"
   pronouns         : # example: "she/her"  
   bio              : "Professor of Statistics | AI + Finance | Large Language Models"
