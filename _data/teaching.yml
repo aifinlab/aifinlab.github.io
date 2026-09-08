@@ -1,18 +1,18 @@
 # Replace “待补充学期” with verified semester information before publication.
 # Optional fields: code, institution, school, audience, role, url.
-# term 为列表时表示该课程多个学期重复开设（按最新在前排列）。
+# 每个学期单独记录，便于按学期倒序展示重复开设的课程。
 
 courses:
-  - term: "2019-2020秋"
-    name: "概率论"
+  - term: "2025-2026秋"
+    name: "数学分析Ⅲ"
     school: "统计与数据科学学院"
     audience: "本科生"
     role: "授课教师"
 
-  - term: ["2019-2020春", "2018-2019春"]
-    name: "数理统计"
+  - term: "2025-2026秋"
+    name: "人工智能前沿与产业趋势"
     school: "统计与数据科学学院"
-    audience: "本科生"
+    audience: "硕士研究生"
     role: "授课教师"
 
   - term: "2025-2026春"
@@ -21,8 +21,86 @@ courses:
     audience: "本科生"
     role: "授课教师"
 
-  - term: ["2025-2026秋", "2024-2025秋", "2023-2024秋", "2022-2023秋", "2021-2022秋", "2020-2021秋"]
+  - term: "2025-2026春"
+    name: "大数据挖掘"
+    school: "统计与数据科学学院"
+    audience: "硕士研究生"
+    role: "授课教师"
+
+  - term: "2024-2025秋"
     name: "数学分析Ⅲ"
+    school: "统计与数据科学学院"
+    audience: "本科生"
+    role: "授课教师"
+
+  - term: "2024-2025春"
+    name: "大数据挖掘"
+    school: "统计与数据科学学院"
+    audience: "硕士研究生"
+    role: "授课教师"
+
+  - term: "2023-2024秋"
+    name: "数学分析Ⅲ"
+    school: "统计与数据科学学院"
+    audience: "本科生"
+    role: "授课教师"
+
+  - term: "2023-2024春"
+    name: "大数据挖掘"
+    school: "统计与数据科学学院"
+    audience: "硕士研究生"
+    role: "授课教师"
+
+  - term: "2022-2023秋"
+    name: "数学分析Ⅲ"
+    school: "统计与数据科学学院"
+    audience: "本科生"
+    role: "授课教师"
+
+  - term: "2022-2023春"
+    name: "大数据挖掘"
+    school: "统计与数据科学学院"
+    audience: "硕士研究生"
+    role: "授课教师"
+
+  - term: "2021-2022秋"
+    name: "数学分析Ⅲ"
+    school: "统计与数据科学学院"
+    audience: "本科生"
+    role: "授课教师"
+
+  - term: "2021-2022春"
+    name: "大数据挖掘"
+    school: "统计与数据科学学院"
+    audience: "硕士研究生"
+    role: "授课教师"
+
+  - term: "2020-2021秋"
+    name: "数学分析Ⅲ"
+    school: "统计与数据科学学院"
+    audience: "本科生"
+    role: "授课教师"
+
+  - term: "2020-2021春"
+    name: "大数据挖掘"
+    school: "统计与数据科学学院"
+    audience: "硕士研究生"
+    role: "授课教师"
+
+  - term: "2019-2020秋"
+    name: "概率论"
+    school: "统计与数据科学学院"
+    audience: "本科生"
+    role: "授课教师"
+
+  - term: "2019-2020秋"
+    name: "数据库管理"
+    school: "统计与数据科学学院"
+    audience: "硕士研究生"
+    role: "授课教师"
+
+  - term: "2019-2020春"
+    name: "数理统计"
     school: "统计与数据科学学院"
     audience: "本科生"
     role: "授课教师"
@@ -33,21 +111,15 @@ courses:
     audience: "本科生"
     role: "授课教师"
 
-  - term: ["2025-2026春", "2024-2025春", "2023-2024春", "2022-2023春", "2021-2022春", "2020-2021春"]
-    name: "大数据挖掘"
-    school: "统计与数据科学学院"
-    audience: "硕士研究生"
-    role: "授课教师"
-
-  - term: "2025-2026秋"
-    name: "人工智能前沿与产业趋势"
-    school: "统计与数据科学学院"
-    audience: "硕士研究生"
-    role: "授课教师"
-
-  - term: ["2019-2020秋", "2018-2019秋"]
+  - term: "2018-2019秋"
     name: "数据库管理"
     school: "统计与数据科学学院"
+    audience: "硕士研究生"
+    role: "授课教师"
+
+  - term: "2018-2019秋"
+    name: "计量软件与编程"
+    school: "经济学院"
     audience: "硕士研究生"
     role: "授课教师"
 
@@ -57,9 +129,11 @@ courses:
     audience: "硕士研究生"
     role: "授课教师"
 
-  - term: "2018-2019秋"
-    name: "计量软件与编程"
-    school: "经济学院"
+  - term: "2018-2019春"
+    name: "数理统计"
+    school: "统计与数据科学学院"
+    audience: "本科生"
+    role: "授课教师"
     audience: "硕士研究生"
     role: "授课教师"
 
