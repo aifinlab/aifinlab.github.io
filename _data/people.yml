@@ -6,7 +6,8 @@ supervisor:
   name_zh: "张立文"
   photo: "/images/zhang-liwen.jpg"
   bio_lines:
-    - "统计与数据科学学院教授、AI 财经开发与服务中心主任"
+    - "统计与数据科学学院教授"
+    - "AI 财经开发与服务中心主任"
     - "办公室：上海财经大学科研试验大学832"
   homepage: "https://ssds.sufe.edu.cn/99/eb/c715a236011/page.htm"
   email: "zhang.liwen@mail.shufe.edu.cn"
