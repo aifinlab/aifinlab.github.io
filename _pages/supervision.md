@@ -27,6 +27,7 @@ author_profile: true
   {% endif %}
 {% endfor %}
 
+
 {% unless supervision_has_members %}
 <p class="content-pending">学生名单与个人资料将在获得成员确认后发布。</p>
 {% endunless %}
