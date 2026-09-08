@@ -2,8 +2,6 @@
 # Optional fields: code, institution, school, audience, role, url.
 # term 为列表时表示该课程多个学期重复开设（按最新在前排列）。
 
-好的，我已将全部课程中的学期格式统一改为“学年-学年秋/春”的简写形式（去掉“学年”和“学期”字样），其他信息保持不变。修改后的完整课程列表如下：
-
 courses:
   - term: "2019-2020秋"
     name: "概率论"
