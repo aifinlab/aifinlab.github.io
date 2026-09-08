@@ -4,7 +4,7 @@
 supervisor:
   name_en: "Liwen Zhang"
   name_zh: "张立文"
-  photo: "https://ssds.sufe.edu.cn/_upload/article/images/e7/a7/d1445b2749ddb4264a085f18615e/dba2a7ad-ae4e-443c-bd29-2b530bb784cc.jpg"
+  photo: "/images/zhang-liwen.jpg"
   role: "Professor and Doctoral Supervisor"
   institution: "Shanghai University of Finance and Economics"
   research: "Statistical methodology, large language models, AI for finance, and quantitative investment"
