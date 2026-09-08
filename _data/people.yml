@@ -95,22 +95,27 @@ supervision_groups:
       - name_zh: "金志恒"
         photo: "/images/students/金志恒.png"
         period: "2025.11-至今"
-  - key: "interns"
-    title: "Research Interns / 研究实习生"
-    members: []
+  - key: "undergraduate"
+    title: "Undergraduate Student/ 本科生"
+    members: 
+      - name_zh: "周振凯"
   - key: "alumni"
     title: "Alumni / 已毕业学生"
     members: 
       - name_zh: "杨智"
         photo: "/images/students/杨智.jpg"
-        period: "2020.09-至今"
       - name_zh: "郭鑫"
         photo: "/images/students/郭鑫.png"
-        period: "2021.09-至今"
       - name_zh: "刘赵伟"
         photo: "/images/students/刘赵伟.png"
-        period: "2023.09-至今"
-
+      - name_zh: "朱周帆"
+      - name_zh: "旷骐"
+      - name_zh: "王子璇"
+      - name_zh: "冯睿伦"
+      - name_zh: "胥佳杰"
+      - name_zh: "王凯睿"
+      - name_zh: "杨子纬"
+      
 # Lab-member fields use focus for work responsibilities and may also use projects.
 lab_groups:
   - key: "faculty"
