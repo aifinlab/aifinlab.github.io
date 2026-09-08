@@ -10,7 +10,7 @@ redirect_from:
 
 <div class="profile-lead" markdown="1">
 
-张立文是上海财经大学统计与数据科学学院与滴水湖高级金融学院联聘教授、博士生导师及 MBA/EMBA 导师。主要研究方向包括统计理论与方法、大模型理论及应用、人工智能理论与方法、AI 量化投资。
+张立文是上海财经大学统计与数据科学学院教授、博士生导师，担任 AI 财经开发与服务中心（正处级直属单位）主任、上海金融智能工程技术研究中心（上海市科学技术委员会批准设立的市级工程技术研究中心）主任、数理经济学教育部重点实验室副主任、数据科学和统计研究院副院长、数字经济统计与数学应用联合实验室负责人、财经 AI 大模型技术研发学科方向带头人。长期从事统计理论与方法、人工智能与大模型理论及应用、金融科技与量化投资等研究。
 
 He is a professor at Shanghai University of Finance and Economics. His research connects statistical methodology, large language models, AI for finance, and quantitative investment.
 
