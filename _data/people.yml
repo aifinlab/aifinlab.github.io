@@ -25,9 +25,6 @@ supervision_groups:
   - key: "phd"
     title: "PhD Students / 博士研究生"
     members:
-      - name_zh: "杨智"
-        photo: "/images/students/杨智.jpg"
-        period: "2020.09-至今"
       - name_zh: "刘志强"
         photo: "/images/students/刘志强.jpg"
         period: "2022.09-至今"
@@ -46,12 +43,11 @@ supervision_groups:
       - name_zh: "娄方齐"
         photo: "/images/students/娄方齐.jpeg"
         period: "2024.06-至今"
-      - name_zh: "郭鑫"
-        photo: "/images/students/郭鑫.png"
-        period: "2021.09-至今"
       - name_zh: "张威"
         photo: "/images/students/张威.jpeg"
         period: "2025.09-至今"
+      - name_zh: "姚梓凌"
+        period: "2025.09-至今" 
   - key: "masters"
     title: "Master’s Students / 硕士研究生"
     members:
@@ -81,7 +77,13 @@ supervision_groups:
     members: []
   - key: "alumni"
     title: "Alumni / 已毕业学生"
-    members: []
+    members: 
+      - name_zh: "杨智"
+        photo: "/images/students/杨智.jpg"
+        period: "2020.09-至今"
+      - name_zh: "郭鑫"
+        photo: "/images/students/郭鑫.png"
+        period: "2021.09-至今"
 
 # Lab-member fields use focus for work responsibilities and may also use projects.
 lab_groups:
