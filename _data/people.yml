@@ -17,9 +17,6 @@ supervisor:
 # Member fields: name_en, name_zh, photo, role, period, research,
 # projects, destination, homepage, github, scholar.
 supervision_groups:
-  - key: "postdocs"
-    title: "Postdoctoral Researchers / 博士后"
-    members: []
   - key: "phd"
     title: "PhD Students / 博士研究生"
     members:
@@ -74,12 +71,15 @@ supervision_groups:
       - name_zh: "虞帧雄"
         photo: "/images/students/虞帧雄.png"
         period: "2025.10-至今"
-  - key: "interns"
-    title: "Research Interns / 研究实习生"
-    members: []
-  - key: "alumni"
-    title: "Alumni / 已毕业学生"
-    members: []
+    - key: "undergraduate"
+     title: "Undergraduate Student/ 本科生"
+     members: []
+   - key: "Exchange Student"
+     title: "Exchange Student / 交流学生"
+     members: []
+   - key: "alumni"
+     title: "Alumni / 已毕业学生"
+     members: []
 
 # Lab-member fields use focus for work responsibilities and may also use projects.
 lab_groups:
