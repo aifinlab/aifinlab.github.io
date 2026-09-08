@@ -5,14 +5,23 @@ permalink: /teaching/
 author_profile: true
 ---
 
-<p class="page-intro">课程按授课时间顺序列出。课程编号、学期和教学对象以学校正式教学安排为准。</p>
+<p class="page-intro">课程按授课时间倒序列出。课程编号、学期和教学对象以学校正式教学安排为准。</p>
 
 {% if site.data.teaching.courses and site.data.teaching.courses != empty %}
-<ol class="course-list">
-  {% for course in site.data.teaching.courses %}
-    {% include teaching-entry.html course=course %}
+<div class="course-list">
+  {% assign teaching_terms = site.data.teaching.courses | map: "term" | uniq | sort | reverse %}
+  {% for term in teaching_terms %}
+    <section class="teaching-term" aria-labelledby="term-{{ term | slugify }}">
+      <h2 id="term-{{ term | slugify }}">{{ term }}</h2>
+      <ul>
+        {% assign term_courses = site.data.teaching.courses | where: "term", term %}
+        {% for course in term_courses %}
+          {% include teaching-entry.html course=course %}
+        {% endfor %}
+      </ul>
+    </section>
   {% endfor %}
-</ol>
+</div>
 {% else %}
 <p class="content-pending">课程信息核验后更新。</p>
 {% endif %}
