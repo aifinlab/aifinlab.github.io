@@ -37,24 +37,11 @@ author_profile: true
 <h2>Student Awards</h2>
 
 {% if site.data.supervision.awards and site.data.supervision.awards != empty %}
-<table class="supervision-awards">
-  <thead>
-    <tr>
-      <th scope="col">序号</th>
-      <th scope="col">奖项名称</th>
-      <th scope="col">奖励年度</th>
-    </tr>
-  </thead>
-  <tbody>
-    {% for award in site.data.supervision.awards %}
-    <tr>
-      <td>{{ forloop.index }}</td>
-      <td><strong>{{ award.title }}</strong></td>
-      <td>{{ award.year }}</td>
-    </tr>
-    {% endfor %}
-  </tbody>
-</table>
+<ul class="supervision-awards">
+  {% for award in site.data.supervision.awards %}
+  <li><strong>{{ award.title }}</strong>，{{ award.year }}</li>
+  {% endfor %}
+</ul>
 {% endif %}
 
 <h2>Prospective Students & Interns</h2>
