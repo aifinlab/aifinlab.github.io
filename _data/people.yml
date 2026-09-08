@@ -5,9 +5,9 @@ supervisor:
   name_en: "Liwen Zhang"
   name_zh: "张立文"
   photo: "/images/zhang-liwen.jpg"
-  role: "Professor and Doctoral Supervisor"
-  institution: "Shanghai University of Finance and Economics"
-  research: "Statistical methodology, large language models, AI for finance, and quantitative investment"
+  bio_lines:
+    - "统计与数据科学学院教授、AI 财经开发与服务中心主任"
+    - "办公室：上海财经大学科研试验大学832"
   homepage: "https://ssds.sufe.edu.cn/99/eb/c715a236011/page.htm"
   email: "zhang.liwen@mail.shufe.edu.cn"
   github: "https://github.com/aifinlab"
@@ -17,6 +17,9 @@ supervisor:
 # Member fields: name_en, name_zh, photo, role, period, research,
 # projects, destination, homepage, github, scholar.
 supervision_groups:
+  - key: "postdocs"
+    title: "Postdoctoral Researchers / 博士后"
+    members: []
   - key: "phd"
     title: "PhD Students / 博士研究生"
     members:
@@ -71,11 +74,8 @@ supervision_groups:
       - name_zh: "虞帧雄"
         photo: "/images/students/虞帧雄.png"
         period: "2025.10-至今"
-  - key: "undergraduate"
-    title: "Undergraduate Student/ 本科生"
-    members: []
-  - key: "Exchange Student"
-    title: "Exchange Student / 交流学生"
+  - key: "interns"
+    title: "Research Interns / 研究实习生"
     members: []
   - key: "alumni"
     title: "Alumni / 已毕业学生"
