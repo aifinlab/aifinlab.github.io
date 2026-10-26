@@ -7,8 +7,6 @@ author_profile: true
 
 ## Supervisor / 导师
 
-## Supervisor / 导师
-
 {% assign person = site.data.people.supervisor %}
 <section class="featured-person" style="display: block;">
   <div class="featured-person__content">
@@ -22,12 +20,6 @@ author_profile: true
       {% if person.institution %}<p>{{ person.institution }}</p>{% endif %}
       {% if person.research %}<p><strong>Research:</strong> {{ person.research }}</p>{% endif %}
     {% endif %}
-    <p class="people-links">
-      {% if person.homepage %}<a href="{{ person.homepage }}">Homepage</a>{% endif %}
-      {% if person.email %}<a href="mailto:{{ person.email }}">Email</a>{% endif %}
-      {% if person.github %}<a href="{{ person.github }}">GitHub</a>{% endif %}
-      {% if person.scholar %}<a href="{{ person.scholar }}">Scholar</a>{% endif %}
-    </p>
   </div>
 </section>
 
