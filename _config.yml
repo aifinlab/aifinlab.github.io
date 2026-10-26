@@ -28,7 +28,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Professor of Statistics | AI + Finance | Large Language Models"
   location         : "Shanghai, China"
-  employer         : "Shanghai University of Finance and Economics"
+  employer         : "上海财经大学"
   uri              : "https://ssds.sufe.edu.cn/99/eb/c715a236011/page.htm"
   email            : "zhang.liwen@mail.shufe.edu.cn"
 
@@ -36,7 +36,7 @@ author:
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    :
-  inspire-hep      : # URL
+  "https://scholar.google.com/citations?hl=zh-CN&user=XCMt8rgAAAAJ"
   impactstory      : # URL
   orcid            :
   semantic         : # URL
