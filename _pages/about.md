@@ -10,9 +10,9 @@ redirect_from:
 
 <div class="profile-lead" markdown="1">
 
-张立文是上海财经大学统计与数据科学学院教授、博士生导师，担任 AI 财经开发与服务中心（正处级直属单位）主任、上海金融智能工程技术研究中心（上海市科学技术委员会批准设立的市级工程技术研究中心）主任、数理经济学教育部重点实验室副主任、数据科学和统计研究院副院长、数字经济统计与数学应用联合实验室负责人、财经 AI 大模型技术研发学科方向带头人。长期从事统计理论与方法、人工智能与大模型理论及应用、金融科技与量化投资等研究。
+欢迎访问张立文的主页！我是上海财经大学统计与数据科学学院教授、博士生导师，担任 AI财经开发与服务中心（正处级直属单位）主任、上海金融智能工程技术研究中心（上海市科学技术委员会批准设立的市级工程技术研究中心）主任、数理经济学教育部重点实验室副主任、数字经济统计与数学应用联合实验室负责人、财经 AI 大模型技术研发学科方向带头人。长期从事统计理论与方法、人工智能与大模型理论及应用、金融科技与量化投资等研究。
 
-He is a professor at Shanghai University of Finance and Economics. His research connects statistical methodology, large language models, AI for finance, and quantitative investment.
+主持中国工商银行、阿里巴巴集团、腾讯集团、蚂蚁集团、阶跃星辰、上汽集团、上海库帕思科技、国泰海通证券等企业产学研项目 30 余项，为企业带来估算近千万元的经济效益，并得到多家企业致谢。作为重要贡献者参与制定国家标准《人工智能语料库建设第 3 部分：金融思维链数据集》和全国首个金融大模型应用团体标准《金融大模型应用测评指南》，相关研究合作成果已获授权发明专利 1 项，公开发明专利申请 12 项，软著 5 项。
 
 <div class="profile-actions">
   <a class="btn btn--primary" href="/publications/">Publications</a>
@@ -23,11 +23,10 @@ He is a professor at Shanghai University of Finance and Economics. His research 
 
 </div>
 
-
 ## Projects
 
 ### Research Projects
-
+- **金融大模型语料平台赋能人才培养与算电协同推动算力赋能创新研究**，上海高校产学研联合创新计划项目，2026
 - **多模态数据融合下经济预测理论与政策评估研究**，国家自然科学基金重点项目子课题，2026
 - **人工智能大模型在财会监督信息化中的应用研究**，财政部，2026
 - **AI匡时大模型智能投研系统**，上海市经信委科学智能“百团百项”专项，2025
@@ -59,26 +58,42 @@ He is a professor at Shanghai University of Finance and Economics. His research 
 
 ## Research Roadmap
 
+<div style="margin: 1rem 0 1.5rem 0;">
+  <img src="/images/科研主线.png" alt="AIFin Lab 科研主线" style="width:100%; border-radius: 8px;" />
+</div>
+
+课题组围绕“面向真实金融场景的 Agent 基础设施与创新体系”，形成以下六个相互支撑的研究方向。
+
 <div class="roadmap-grid">
   <div class="roadmap-step">
-    <span class="roadmap-index">1</span>
-    <h3>Data Foundation</h3>
-    <p>构建高质量金融语料、专业知识体系与可追溯数据基座，为模型训练和评测提供统一标准。</p>
+    <span class="roadmap-index">A</span>
+    <h3>评测体系</h3>
+    <p>围绕金融知识、业务流程、复杂任务与真实场景，构建可复现、可比较的评测基准与 Benchmark 体系。</p>
   </div>
   <div class="roadmap-step">
-    <span class="roadmap-index">2</span>
-    <h3>Models & Reasoning</h3>
-    <p>研究金融大模型训练、强化学习、专业推理和多模态理解，提升模型的可解释性与可靠性。</p>
+    <span class="roadmap-index">B</span>
+    <h3>数据平台</h3>
+    <p>建设高质量金融语料、知识库与数据工程平台，为模型训练、评测与智能体应用提供统一的数据底座。</p>
   </div>
   <div class="roadmap-step">
-    <span class="roadmap-index">3</span>
-    <h3>Evaluation & Safety</h3>
-    <p>围绕金融知识、多模态任务、智能体执行与风险安全，建立可复现、可对比的评测基准。</p>
+    <span class="roadmap-index">C</span>
+    <h3>模型训练</h3>
+    <p>研究金融大模型的监督微调、强化学习、多模态训练与专业推理能力，提升模型的可靠性与泛化能力。</p>
   </div>
   <div class="roadmap-step">
-    <span class="roadmap-index">4</span>
-    <h3>Decision & Deployment</h3>
-    <p>将模型与金融业务流程、安全约束和量化投资决策融合，构建可验证的产业级智能系统。</p>
+    <span class="roadmap-index">D</span>
+    <h3>金融 Agent / Claw</h3>
+    <p>面向投研分析、风险合规、任务执行与复杂工作流，构建具备多步推理与工具协同能力的金融智能体系统。</p>
+  </div>
+  <div class="roadmap-step">
+    <span class="roadmap-index">E</span>
+    <h3>金融安全</h3>
+    <p>聚焦金融大模型与智能体的风险识别、安全评测、Guard 能力与防护机制，提升真实部署中的安全可靠性。</p>
+  </div>
+  <div class="roadmap-step">
+    <span class="roadmap-index">F</span>
+    <h3>统计与数据科学</h3>
+    <p>结合统计建模、因子分析、自动化科研与数据智能方法，为金融研究与决策提供方法支撑与工具体系。</p>
   </div>
 </div>
 
