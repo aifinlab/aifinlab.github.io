@@ -14,12 +14,6 @@ redirect_from:
 
 主持中国工商银行、阿里巴巴集团、腾讯集团、蚂蚁集团、阶跃星辰、上汽集团、上海库帕思科技、国泰海通证券等企业产学研项目 30 余项，为企业带来估算近千万元的经济效益，并得到多家企业致谢。作为重要贡献者参与制定国家标准《人工智能语料库建设第 3 部分：金融思维链数据集》和全国首个金融大模型应用团体标准《金融大模型应用测评指南》，相关研究合作成果已获授权发明专利 1 项，公开发明专利申请 12 项，软著 5 项。
 
-<div class="profile-actions">
-  <a class="btn btn--primary" href="/publications/">Publications</a>
-  <a class="btn btn--inverse" href="/supervision/">Join the Group</a>
-  <a class="btn btn--inverse" href="https://github.com/aifinlab">GitHub</a>
-  <a class="btn btn--inverse" href="https://ssds.sufe.edu.cn/99/eb/c715a236011/page.htm">Official Profile</a>
-</div>
 
 </div>
 
