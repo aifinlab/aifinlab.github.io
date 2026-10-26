@@ -7,6 +7,8 @@ author_profile: true
 
 ## Supervisor / 导师
 
+## Supervisor / 导师
+
 {% assign person = site.data.people.supervisor %}
 <section class="featured-person" style="display: block;">
   <div class="featured-person__content">
