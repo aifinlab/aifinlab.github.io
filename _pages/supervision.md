@@ -7,7 +7,27 @@ author_profile: true
 
 ## Supervisor / 导师
 
-{% include featured-person.html person=site.data.people.supervisor %}
+{% assign person = site.data.people.supervisor %}
+<section class="featured-person" style="display: block;">
+  <div class="featured-person__content">
+    <h3>{{ person.name_en }}{% if person.name_zh %} <span>{{ person.name_zh }}</span>{% endif %}</h3>
+    {% if person.bio_lines %}
+      <div class="featured-person__bio">
+        {% for line in person.bio_lines %}<p>{{ line }}</p>{% endfor %}
+      </div>
+    {% else %}
+      {% if person.role %}<p class="people-role">{{ person.role }}</p>{% endif %}
+      {% if person.institution %}<p>{{ person.institution }}</p>{% endif %}
+      {% if person.research %}<p><strong>Research:</strong> {{ person.research }}</p>{% endif %}
+    {% endif %}
+    <p class="people-links">
+      {% if person.homepage %}<a href="{{ person.homepage }}">Homepage</a>{% endif %}
+      {% if person.email %}<a href="mailto:{{ person.email }}">Email</a>{% endif %}
+      {% if person.github %}<a href="{{ person.github }}">GitHub</a>{% endif %}
+      {% if person.scholar %}<a href="{{ person.scholar }}">Scholar</a>{% endif %}
+    </p>
+  </div>
+</section>
 
 ## Current Students & Alumni / 在读学生与毕业生
 
@@ -54,7 +74,6 @@ author_profile: true
 <ul>
   <li>Email: <a href="mailto:zhang.liwen@mail.shufe.edu.cn">zhang.liwen@mail.shufe.edu.cn</a></li>
   <li>Subject suggestion: <code>[Application] Name + Program/Role + Research Direction</code></li>
-  <li>招生名额、学位要求与录取流程以上海财经大学当年官方政策为准。</li>
 </ul>
 
 </div>
